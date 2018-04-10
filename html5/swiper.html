@@ -4,7 +4,7 @@
  <head>
      <meta charset="UTF-8" name="viewport" content="user-scalable=0" />
 
-    <title>填写申请人信息</title>
+    <title>填写申请信息</title>
 
     <script src="../html5/dist/js/load.min.js"></script>
      <script src="../html5/dist/js/swiper.js"></script>
@@ -113,7 +113,7 @@
             color: #999;
             border-bottom:1px solid #eeeeee;
         }
-        .recommend-bank label{
+        .bank-describe label{
          font-size:4rem;
             height: 5rem;
             line-height:2rem;
@@ -123,13 +123,13 @@
             padding-left:3.5rem;  
             padding-right: 3.5rem; 
         }
-        .recommend-bank input{
+        .bank-describe input{
            font-size:4rem;
             border: none;
             outline: none;
            display:inline-block;
            background-color: transparent;
-
+            width: 650px;
            height: 10rem;
            
         }
@@ -235,7 +235,7 @@
 
 
     <div class="recommend-bank">
-        <h5>请填写申请本人的信息</h5>
+        <h5>请填写申请者本人的信息</h5>
         <ul class="clearBoth">
 
             <div class="bank-describe">
@@ -244,16 +244,16 @@
             </div>
             <div class="bank-describe">
                 <label for="CardId">身份证号</label>
-                <input type="text" placeholder="输入身份证号" name="u_CardId" id="u_CardId">
+                <input type="number" placeholder="输入身份证号" name="u_CardId" id="u_CardId">
             </div>
             <div class="bank-describe">
                 <label for="Iphone">手机号</label>
-                <input type="text" placeholder="输入您的手机号" name="u_Iphone" id="u_Iphone">
+                <input type="number" placeholder="输入您的手机号" name="u_Iphone" id="u_Iphone">
             </div>
             <div class="vcode-view">
                 <label for="Vcode">验证码</label>
-                <input type="text" placeholder="点击右边获取" name="u_Vcode" id="u_Vcode">
-                <a type="btn" class="" onclick="VicCode()">获取验证码</a>
+                <input type="number" placeholder="点击右边获取" name="u_Vcode" id="u_Vcode">
+                <a id="#btn"  class="" onclick="VicCode()">获取验证码</a>
             </div>
         </ul>
     </div>

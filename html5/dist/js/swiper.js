@@ -1,6 +1,6 @@
-//测试登录
+
 function VicCode() {
-  // window.onload = GetDaojishi();
+   GetDaojishi();
     var u_Iphone = document.getElementById("u_Iphone").value;
 
     if((u_Iphone.length >0 )) {
@@ -41,20 +41,20 @@ function VicCode() {
 
     }
 }
-function GetDaojishi(o) {
+function GetDaojishi() {
     var wait = 60;
 
     {
         if (wait == 0) {
-            o.removeAttribute("disabled");
-            o.value="免费获取验证码";
+            document.getElementById("#btn").removeAttribute("disabled");
+            document.getElementById("#btn").value="免费获取验证码";
             wait = 60;
         } else {
-            o.setAttribute("disabled", true);
-            o.value="重新发送(" + wait + ")";
-            wait--;
+            document.getElementById("#btn").setAttribute("disabled", true);
+            document.getElementById("#btn").value="重新发送(" + wait + ")";
+
             setTimeout(function() {
-                    time(o)
+                    wait--;
                 },
                 1000)
         }
