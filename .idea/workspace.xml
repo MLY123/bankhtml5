@@ -4,7 +4,6 @@
     <list default="true" id="5443dfeb-2599-408e-b61f-748b065c1b17" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5/swiper.html" afterPath="$PROJECT_DIR$/html5/swiper.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xieyi/xieyie.html" afterPath="$PROJECT_DIR$/xieyi/xieyie.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,11 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="swiper.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="swiper.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html5/swiper.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="182">
-              <caret line="189" column="11" lean-forward="false" selection-start-line="189" selection-start-column="11" selection-end-line="189" selection-end-column="11" />
+              <caret line="189" column="0" lean-forward="false" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -39,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="55" column="21" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+            <state relative-caret-position="113">
+              <caret line="66" column="27" lean-forward="false" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -90,9 +89,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/xieyi/xieyie.html" />
         <option value="$PROJECT_DIR$/html5/swiper.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -315,12 +314,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523325255357</updated>
-      <workItem from="1523325257005" duration="2735000" />
+      <workItem from="1523325257005" duration="3311000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2735000" />
+    <option name="totallyTimeSpent" value="3311000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="80" width="1400" height="866" extended-state="0" />
@@ -377,14 +376,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="55" column="21" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xieyi/xieyie.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -396,7 +387,15 @@
     <entry file="file://$PROJECT_DIR$/html5/swiper.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
-          <caret line="189" column="11" lean-forward="false" selection-start-line="189" selection-start-column="11" selection-end-line="189" selection-end-column="11" />
+          <caret line="189" column="0" lean-forward="false" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="66" column="27" lean-forward="false" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
           <folding />
         </state>
       </provider>
