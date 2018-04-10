@@ -71,27 +71,54 @@
         .recommend-bank {
             background:#fff;
         }
+        .vcode-view{
+            float: left;
+            width: 100%;
+            height: 13rem;
+            margin-top: 3rem;
+        }
+        .vcode-view label{
+            font-size:5rem;
+            height: 5rem;
+            line-height:2rem;
+            width:340px;
+            display: inline-block;
+            padding-left:3.5rem;
+            padding-right: 3.5rem;
+        }
+        .vcode-view input{
+            font-size:5rem;
+            border: none;
+            outline: none;
+            display:inline-block;
+            background-color: transparent;
+            width:400px;
+            height: 10rem;
+
+        }
+        .vcode-view a {
+            font-size: 4rem;
+            color: #007AFF;
+        }
         .recommend-bank h5 {
             font-size:3.5rem;
             font-weight:400;
-            line-height:2;
+            line-height:3.5;
             padding-left:3.5rem;
             color: #999;
             border-bottom:1px solid #ccc;
         }
         .recommend-bank label{
-         font-size:3.5rem;
-            
-            height: 5rem
+         font-size:5rem;
+            height: 5rem;
             line-height:2rem;
-            width:300px; 
+            width:340px;
             display: inline-block;
             padding-left:3.5rem;  
             padding-right: 3.5rem; 
         }
         .recommend-bank input{
-           font-size:4rem;
-
+           font-size:5rem;
             border: none;
             outline: none;
            display:inline-block;
@@ -120,6 +147,8 @@
 
             float:left;
             width: 100%;
+            height: 13rem;
+            margin-top: 3rem;
             border-bottom:1px solid #ccc;
         }
         .bank-describe a {
@@ -151,11 +180,12 @@
             width: 90%;
             margin-left: 5%;
             margin-top: 10rem;
-            height: 10rem;
-            background-color:#007AFF;
-            border-radius: 5rem;
-            text-align:center;
-            line-height: 10rem;
+            height: 12rem;
+            background-image: linear-gradient(270deg, #58BEFF, #247EFF);
+            border-radius: 6rem;
+            text-align: center;
+            line-height: 12rem;
+
         }
         .bank-button a{
             font-size: 5rem;
@@ -170,12 +200,12 @@
             line-height: 5rem;
         }
         .bank-xieyi label{
-            font-size: 2.5rem;
+            font-size: 2.8rem;
             color: #333;
             
         }
         .bank-xieyi a{
-            font-size: 2.5rem;
+            font-size: 2.8rem;
             color: #007AFF;
             
         }
@@ -204,7 +234,7 @@
                          <label for="Iphone">手机号</label>
                         <input type="text" placeholder="请输入手机号" name="u_Iphone" id="u_Iphone">
                     </div>
-                     <div class="bank-describe">
+                     <div class="vcode-view">
                          <label for="Vcode">验证码</label>
                         <input type="text" placeholder="请输入验证码" name="u_Vcode" id="u_Vcode">
                          <a class="" onclick="VicCode()">获取验证码</a>
@@ -212,7 +242,7 @@
             </ul>
         </div>
         <div class="bank-button">
-<a onclick="applyCard()" >立即申请</a>
+<a onclick="applyCard()" >开始申请</a>
         </div>
         <div class="bank-xieyi">
 <label>点击开始申请即表示同意</label>
