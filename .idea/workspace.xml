@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5443dfeb-2599-408e-b61f-748b065c1b17" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,7 +31,7 @@
       <file leaf-file-name="xieyie.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xieyi/xieyie.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
+            <state relative-caret-position="1031">
               <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
               <folding />
             </state>
@@ -40,9 +41,14 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="78" column="28" lean-forward="false" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
-              <folding />
+            <state relative-caret-position="97">
+              <caret line="348" column="34" lean-forward="false" selection-start-line="348" selection-start-column="34" selection-end-line="348" selection-end-column="34" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,8 +56,8 @@
       <file leaf-file-name="swiper.min.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bank/swiper.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="11" column="1124" lean-forward="false" selection-start-line="11" selection-start-column="1124" selection-end-line="11" selection-end-column="1124" />
+            <state relative-caret-position="304">
+              <caret line="11" column="10814" lean-forward="true" selection-start-line="11" selection-start-column="10814" selection-end-line="11" selection-end-column="10814" />
               <folding>
                 <element signature="e#5045#5303#2" expanded="true" />
                 <element signature="e#5404#5662#2" expanded="true" />
@@ -80,6 +86,10 @@
       <find>banner-img</find>
       <find>banner-title</find>
       <find>img</find>
+      <find>bank-icon</find>
+      <find>bank-describe</find>
+      <find>swiper-container</find>
+      <find>loan-magin</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -90,6 +100,7 @@
       <list>
         <option value="$PROJECT_DIR$/xieyi/xieyie.html" />
         <option value="$PROJECT_DIR$/html5/swiper.html" />
+        <option value="$PROJECT_DIR$/bank/swiper.min.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -313,12 +324,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523325255357</updated>
-      <workItem from="1523325257005" duration="3773000" />
+      <workItem from="1523325257005" duration="5173000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3773000" />
+    <option name="totallyTimeSpent" value="5173000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="80" width="1400" height="866" extended-state="0" />
@@ -358,10 +369,18 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html5/swiper.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="189" column="0" lean-forward="false" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bank/swiper.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="11" column="1124" lean-forward="false" selection-start-line="11" selection-start-column="1124" selection-end-line="11" selection-end-column="1124" />
+        <state relative-caret-position="304">
+          <caret line="11" column="10814" lean-forward="true" selection-start-line="11" selection-start-column="10814" selection-end-line="11" selection-end-column="10814" />
           <folding>
             <element signature="e#5045#5303#2" expanded="true" />
             <element signature="e#5404#5662#2" expanded="true" />
@@ -377,25 +396,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xieyi/xieyie.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
+        <state relative-caret-position="1031">
           <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5/swiper.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="189" column="0" lean-forward="false" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="78" column="28" lean-forward="false" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="97">
+          <caret line="348" column="34" lean-forward="false" selection-start-line="348" selection-start-column="34" selection-end-line="348" selection-end-column="34" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
