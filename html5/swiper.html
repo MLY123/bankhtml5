@@ -71,6 +71,10 @@
         .recommend-bank {
             background:#fff;
         }
+        .backbody{
+            background-color: #fff;
+        }
+
         .vcode-view{
             float: left;
             width: 100%;
@@ -106,13 +110,14 @@
             line-height:3.5;
             padding-left:3.5rem;
             color: #999;
-            border-bottom:1px solid #ccc;
+            border-bottom:1px solid #eeeeee;
         }
         .recommend-bank label{
          font-size:4rem;
             height: 5rem;
             line-height:2rem;
             width:300px;
+            font-weight: bold;
             display: inline-block;
             padding-left:3.5rem;  
             padding-right: 3.5rem; 
@@ -130,7 +135,7 @@
         .recommend-bank ul li {
             float:left;
             width:50%;
-            border-bottom:1px solid #ccc;
+            border-bottom:1px solid #eeeeee;
             padding:5rem 0;
         }
         .recommend-bank ul li:after {
@@ -178,8 +183,9 @@
         }
         .bank-button {
             width: 90%;
+
             margin-left: 5%;
-            margin-top: 10rem;
+            margin-top: 7rem;
             height: 12rem;
             background-image: linear-gradient(270deg, #58BEFF, #247EFF);
             border-radius: 6rem;
@@ -195,13 +201,13 @@
         .bank-xieyi {
             width: 70%;
             margin-left: 15%;
-            margin-top: 5rem;
+            margin-top: 3rem;
             text-align:center;
             line-height: 5rem;
         }
         .bank-xieyi label{
             font-size: 2.8rem;
-            color: #333;
+            color: #888888;
             
         }
         .bank-xieyi a{
@@ -209,48 +215,66 @@
             color: #007AFF;
             
         }
+        .classfooter{
+            position: fixed;
+            bottom:0;
+            left:0;
+            height: 25rem;
+            width:100%;
+            background-color: transparent;
+        }
 
     </style>
 
     </head>
  
-    <body>
+    <body  class="backbody">
         <!--登陆页面-->
-        <div data-role="page" id="pageLogin">
+        <div class="backbody" >
 
-            <div class="recommend-bank">
-            <h5>请填写申请人本人的信息</h5>
-            <ul class="clearBoth">
-                
-                    <div class="bank-describe">
-                         <label for="Rname">申请人姓名</label>
-                        <input type="text" placeholder="填写您的真实姓名" name="u_Name" id="u_Name">
-                    </div>
-                     <div class="bank-describe">
-                         <label for="CardId">身份证号</label>
-                        <input type="text" placeholder="输入身份证号" name="u_CardId" id="u_CardId">
-                    </div>
-                     <div class="bank-describe">
-                         <label for="Iphone">手机号</label>
-                        <input type="text" placeholder="输入您的手机号" name="u_Iphone" id="u_Iphone">
-                    </div>
-                     <div class="vcode-view">
-                         <label for="Vcode">验证码</label>
-                        <input type="text" placeholder="点击右边获取" name="u_Vcode" id="u_Vcode">
-                         <a class="" onclick="VicCode()">获取验证码</a>
-                    </div>
-            </ul>
-        </div>
-        <div class="bank-button">
-<a onclick="applyCard()" >开始申请</a>
-        </div>
-        <div class="bank-xieyi">
-<label>点击开始申请即表示同意</label>
-<a href="../xieyi/xieyie.html">《微创众包平台服务协议》</a>
-        </div>
+
+    <div class="recommend-bank">
+        <h5>请填写申请本人的信息</h5>
+        <ul class="clearBoth">
+
+            <div class="bank-describe">
+                <label for="Rname">申请人姓名</label>
+                <input type="text" placeholder="填写您的真实姓名" name="u_Name" id="u_Name">
+            </div>
+            <div class="bank-describe">
+                <label for="CardId">身份证号</label>
+                <input type="text" placeholder="输入身份证号" name="u_CardId" id="u_CardId">
+            </div>
+            <div class="bank-describe">
+                <label for="Iphone">手机号</label>
+                <input type="text" placeholder="输入您的手机号" name="u_Iphone" id="u_Iphone">
+            </div>
+            <div class="vcode-view">
+                <label for="Vcode">验证码</label>
+                <input type="text" placeholder="点击右边获取" name="u_Vcode" id="u_Vcode">
+                <a type="btn" class="" onclick="VicCode()">获取验证码</a>
+            </div>
+        </ul>
+    </div>
+    <div class="bank-button">
+        <a onclick="applyCard()" >开始申请</a>
+    </div>
+    <div class="bank-xieyi">
+        <label>点击开始申请即表示同意</label>
+        <a href="../xieyi/xieyie.html">《微创众包平台服务协议》</a>
+    </div>
+            <footer>
+                <img class="classfooter" src="../Img/bg.png">
+
+            </footer>
             <script src="../html5/dist/js/swiper.js"></script>
-        </div>
+
+</div>
+
+
+
  
     </body>
+
  
 </html>

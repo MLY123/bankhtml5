@@ -2,7 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5443dfeb-2599-408e-b61f-748b065c1b17" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Img/bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_adv/guangda.jpg" afterPath="$PROJECT_DIR$/Img/banner_adv/guangda.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_adv/jiaotong.jpg" afterPath="$PROJECT_DIR$/Img/banner_adv/jiaotong.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_adv/xingye.jpg" afterPath="$PROJECT_DIR$/Img/banner_adv/xingye.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_adv/zhaoshang.jpg" afterPath="$PROJECT_DIR$/Img/banner_adv/zhaoshang.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_adv/zhongxin.jpg" afterPath="$PROJECT_DIR$/Img/banner_adv/zhongxin.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdbank/gongshang.png" afterPath="$PROJECT_DIR$/Img/banner_rmdbank/gongshang.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdbank/guangda.png" afterPath="$PROJECT_DIR$/Img/banner_rmdbank/guangda.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdbank/guangzhou.png" afterPath="$PROJECT_DIR$/Img/banner_rmdbank/guangzhou.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdbank/huifei.png" afterPath="$PROJECT_DIR$/Img/banner_rmdbank/huifei.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdbank/jiaotong.png" afterPath="$PROJECT_DIR$/Img/banner_rmdbank/jiaotong.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdbank/pingan.png" afterPath="$PROJECT_DIR$/Img/banner_rmdbank/pingan.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdbank/pufa.png" afterPath="$PROJECT_DIR$/Img/banner_rmdbank/pufa.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdbank/xingye.png" afterPath="$PROJECT_DIR$/Img/banner_rmdbank/xingye.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdbank/zhaoshang.png" afterPath="$PROJECT_DIR$/Img/banner_rmdbank/zhaoshang.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdbank/zhongxin.png" afterPath="$PROJECT_DIR$/Img/banner_rmdbank/zhongxin.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdloan/51_kabao.png" afterPath="$PROJECT_DIR$/Img/banner_rmdloan/51_kabao.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdloan/baoyouqian.png" afterPath="$PROJECT_DIR$/Img/banner_rmdloan/baoyouqian.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdloan/daishangqian.png" afterPath="$PROJECT_DIR$/Img/banner_rmdloan/daishangqian.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdloan/diandian.png" afterPath="$PROJECT_DIR$/Img/banner_rmdloan/diandian.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdloan/haoyijie.png" afterPath="$PROJECT_DIR$/Img/banner_rmdloan/haoyijie.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdloan/huanbei.png" afterPath="$PROJECT_DIR$/Img/banner_rmdloan/huanbei.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdloan/jinniudai.png" afterPath="$PROJECT_DIR$/Img/banner_rmdloan/jinniudai.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdloan/xiaoheiyu.png" afterPath="$PROJECT_DIR$/Img/banner_rmdloan/xiaoheiyu.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdloan/xiaomidaikuan.png" afterPath="$PROJECT_DIR$/Img/banner_rmdloan/xiaomidaikuan.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdloan/xiaoyingkadai.png" afterPath="$PROJECT_DIR$/Img/banner_rmdloan/xiaoyingkadai.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdloan/youyudai.png" afterPath="$PROJECT_DIR$/Img/banner_rmdloan/youyudai.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/nav-arrow-left-white.png" afterPath="$PROJECT_DIR$/Img/nav-arrow-left-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5/dist/js/swiper.js" afterPath="$PROJECT_DIR$/html5/dist/js/swiper.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5/swiper.html" afterPath="$PROJECT_DIR$/html5/swiper.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +51,18 @@
       <file leaf-file-name="swiper.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html5/swiper.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="238" column="62" lean-forward="false" selection-start-line="238" selection-start-column="62" selection-end-line="238" selection-end-column="62" />
+            <state relative-caret-position="195">
+              <caret line="269" column="62" lean-forward="false" selection-start-line="235" selection-start-column="4" selection-end-line="269" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="swiper.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html5/dist/js/swiper.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -30,7 +71,7 @@
       <file leaf-file-name="xieyie.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xieyi/xieyie.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1031">
+            <state relative-caret-position="213">
               <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
               <folding />
             </state>
@@ -40,8 +81,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="127" column="27" lean-forward="true" selection-start-line="127" selection-start-column="27" selection-end-line="127" selection-end-column="27" />
+            <state relative-caret-position="207">
+              <caret line="378" column="40" lean-forward="false" selection-start-line="378" selection-start-column="37" selection-end-line="378" selection-end-column="40" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -55,8 +96,8 @@
       <file leaf-file-name="swiper.min.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bank/swiper.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="11" column="10814" lean-forward="true" selection-start-line="11" selection-start-column="10814" selection-end-line="11" selection-end-column="10814" />
+            <state relative-caret-position="-1515">
+              <caret line="11" column="10814" lean-forward="false" selection-start-line="11" selection-start-column="10814" selection-end-line="11" selection-end-column="10814" />
               <folding>
                 <element signature="e#5045#5303#2" expanded="true" />
                 <element signature="e#5404#5662#2" expanded="true" />
@@ -72,7 +113,7 @@
         </entry>
       </file>
       <file leaf-file-name="guangda.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bank/banner_adv/guangda.jpg">
+        <entry file="file://$PROJECT_DIR$/Img/banner_adv/guangda.jpg">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -87,11 +128,11 @@
       <find>img</find>
       <find>bank-icon</find>
       <find>swiper-container</find>
-      <find>loan-magin</find>
-      <find>clearBoth</find>
       <find>recommend-bank</find>
       <find>bank-describe</find>
+      <find>loan-magin</find>
       <find>vcode-view</find>
+      <find>clearBoth</find>
     </findStrings>
     <replaceStrings>
       <replace>通过率：</replace>
@@ -106,6 +147,7 @@
         <option value="$PROJECT_DIR$/xieyi/xieyie.html" />
         <option value="$PROJECT_DIR$/bank/swiper.min.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/html5/dist/js/swiper.js" />
         <option value="$PROJECT_DIR$/html5/swiper.html" />
       </list>
     </option>
@@ -161,7 +203,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xieyi" />
+              <option name="myItemId" value="html5" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -178,18 +220,8 @@
               <option name="myItemId" value="html5" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bankhtml5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bankhtml5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bank" />
+              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -203,11 +235,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bank" />
+              <option name="myItemId" value="html5" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="banner_adv" />
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bankhtml5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bankhtml5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bankhtml5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bankhtml5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bank" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -223,7 +291,11 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Img" />
       <recent name="$PROJECT_DIR$/xieyi" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/bank" />
@@ -241,11 +313,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.swiper.html">
     <configuration default="false" name="xieyie.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bankhtml5/xieyi/xieyie.html">
       <method />
     </configuration>
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bankhtml5/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="swiper.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bankhtml5/html5/swiper.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -308,14 +383,16 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.xieyie.html" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.swiper.html" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.xieyie.html" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.swiper.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.xieyie.html" />
       </list>
     </recent_temporary>
   </component>
@@ -329,12 +406,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523325255357</updated>
-      <workItem from="1523325257005" duration="7747000" />
+      <workItem from="1523325257005" duration="11963000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7747000" />
+    <option name="totallyTimeSpent" value="11963000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="80" width="1400" height="866" extended-state="0" />
@@ -365,19 +442,28 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/html5/dist/js/swiper.js</url>
+          <line>39</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bank/banner_adv/guangda.jpg">
+    <entry file="file://$PROJECT_DIR$/Img/banner_adv/guangda.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bank/swiper.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="11" column="10814" lean-forward="true" selection-start-line="11" selection-start-column="10814" selection-end-line="11" selection-end-column="10814" />
+        <state relative-caret-position="-1515">
+          <caret line="11" column="10814" lean-forward="false" selection-start-line="11" selection-start-column="10814" selection-end-line="11" selection-end-column="10814" />
           <folding>
             <element signature="e#5045#5303#2" expanded="true" />
             <element signature="e#5404#5662#2" expanded="true" />
@@ -393,7 +479,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xieyi/xieyie.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1031">
+        <state relative-caret-position="213">
           <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
           <folding />
         </state>
@@ -401,8 +487,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="127" column="27" lean-forward="true" selection-start-line="127" selection-start-column="27" selection-end-line="127" selection-end-column="27" />
+        <state relative-caret-position="207">
+          <caret line="378" column="40" lean-forward="false" selection-start-line="378" selection-start-column="37" selection-end-line="378" selection-end-column="40" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -412,10 +498,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html5/dist/js/swiper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html5/swiper.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="238" column="62" lean-forward="false" selection-start-line="238" selection-start-column="62" selection-end-line="238" selection-end-column="62" />
+        <state relative-caret-position="195">
+          <caret line="269" column="62" lean-forward="false" selection-start-line="235" selection-start-column="4" selection-end-line="269" selection-end-column="62" />
           <folding />
         </state>
       </provider>

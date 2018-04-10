@@ -1,5 +1,6 @@
 //测试登录
 function VicCode() {
+  // window.onload = GetDaojishi();
     var u_Iphone = document.getElementById("u_Iphone").value;
 
     if((u_Iphone.length >0 )) {
@@ -24,6 +25,8 @@ function VicCode() {
             success: function (data) {
 
                 if(data.status == 200){
+
+
                     alert('验证码获取成功')
                 }else {
                     alert(data.msg)
@@ -35,6 +38,26 @@ function VicCode() {
 
     } else {
         alert("手机号不能为空！");
+
+    }
+}
+function GetDaojishi(o) {
+    var wait = 60;
+
+    {
+        if (wait == 0) {
+            o.removeAttribute("disabled");
+            o.value="免费获取验证码";
+            wait = 60;
+        } else {
+            o.setAttribute("disabled", true);
+            o.value="重新发送(" + wait + ")";
+            wait--;
+            setTimeout(function() {
+                    time(o)
+                },
+                1000)
+        }
 
     }
 }
