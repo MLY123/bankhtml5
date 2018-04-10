@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5443dfeb-2599-408e-b61f-748b065c1b17" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Img/bg.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_adv/guangda.jpg" afterPath="$PROJECT_DIR$/Img/banner_adv/guangda.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_adv/jiaotong.jpg" afterPath="$PROJECT_DIR$/Img/banner_adv/jiaotong.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_adv/xingye.jpg" afterPath="$PROJECT_DIR$/Img/banner_adv/xingye.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_adv/zhaoshang.jpg" afterPath="$PROJECT_DIR$/Img/banner_adv/zhaoshang.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_adv/zhongxin.jpg" afterPath="$PROJECT_DIR$/Img/banner_adv/zhongxin.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdbank/gongshang.png" afterPath="$PROJECT_DIR$/Img/banner_rmdbank/gongshang.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdbank/guangda.png" afterPath="$PROJECT_DIR$/Img/banner_rmdbank/guangda.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdbank/guangzhou.png" afterPath="$PROJECT_DIR$/Img/banner_rmdbank/guangzhou.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdbank/huifei.png" afterPath="$PROJECT_DIR$/Img/banner_rmdbank/huifei.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdbank/jiaotong.png" afterPath="$PROJECT_DIR$/Img/banner_rmdbank/jiaotong.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdbank/pingan.png" afterPath="$PROJECT_DIR$/Img/banner_rmdbank/pingan.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdbank/pufa.png" afterPath="$PROJECT_DIR$/Img/banner_rmdbank/pufa.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdbank/xingye.png" afterPath="$PROJECT_DIR$/Img/banner_rmdbank/xingye.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdbank/zhaoshang.png" afterPath="$PROJECT_DIR$/Img/banner_rmdbank/zhaoshang.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdbank/zhongxin.png" afterPath="$PROJECT_DIR$/Img/banner_rmdbank/zhongxin.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdloan/51_kabao.png" afterPath="$PROJECT_DIR$/Img/banner_rmdloan/51_kabao.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdloan/baoyouqian.png" afterPath="$PROJECT_DIR$/Img/banner_rmdloan/baoyouqian.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdloan/daishangqian.png" afterPath="$PROJECT_DIR$/Img/banner_rmdloan/daishangqian.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdloan/diandian.png" afterPath="$PROJECT_DIR$/Img/banner_rmdloan/diandian.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdloan/haoyijie.png" afterPath="$PROJECT_DIR$/Img/banner_rmdloan/haoyijie.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdloan/huanbei.png" afterPath="$PROJECT_DIR$/Img/banner_rmdloan/huanbei.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdloan/jinniudai.png" afterPath="$PROJECT_DIR$/Img/banner_rmdloan/jinniudai.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdloan/xiaoheiyu.png" afterPath="$PROJECT_DIR$/Img/banner_rmdloan/xiaoheiyu.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdloan/xiaomidaikuan.png" afterPath="$PROJECT_DIR$/Img/banner_rmdloan/xiaomidaikuan.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdloan/xiaoyingkadai.png" afterPath="$PROJECT_DIR$/Img/banner_rmdloan/xiaoyingkadai.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bank/banner_rmdloan/youyudai.png" afterPath="$PROJECT_DIR$/Img/banner_rmdloan/youyudai.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/nav-arrow-left-white.png" afterPath="$PROJECT_DIR$/Img/nav-arrow-left-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5/dist/js/swiper.js" afterPath="$PROJECT_DIR$/html5/dist/js/swiper.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5/swiper.html" afterPath="$PROJECT_DIR$/html5/swiper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,8 +20,8 @@
       <file leaf-file-name="swiper.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html5/swiper.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="269" column="62" lean-forward="false" selection-start-line="235" selection-start-column="4" selection-end-line="269" selection-end-column="62" />
+            <state relative-caret-position="124">
+              <caret line="82" column="44" lean-forward="false" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -129,10 +98,10 @@
       <find>bank-icon</find>
       <find>swiper-container</find>
       <find>recommend-bank</find>
-      <find>bank-describe</find>
       <find>loan-magin</find>
       <find>vcode-view</find>
       <find>clearBoth</find>
+      <find>bank-describe</find>
     </findStrings>
     <replaceStrings>
       <replace>通过率：</replace>
@@ -406,12 +375,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523325255357</updated>
-      <workItem from="1523325257005" duration="11963000" />
+      <workItem from="1523325257005" duration="12105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11963000" />
+    <option name="totallyTimeSpent" value="12105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="80" width="1400" height="866" extended-state="0" />
@@ -508,8 +477,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html5/swiper.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="269" column="62" lean-forward="false" selection-start-line="235" selection-start-column="4" selection-end-line="269" selection-end-column="62" />
+        <state relative-caret-position="124">
+          <caret line="82" column="44" lean-forward="false" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="44" />
           <folding />
         </state>
       </provider>
