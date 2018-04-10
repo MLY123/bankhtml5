@@ -1,6 +1,7 @@
 
 function VicCode() {
-   GetDaojishi();
+    GetDaojishi();
+
     var u_Iphone = document.getElementById("u_Iphone").value;
 
     if((u_Iphone.length >0 )) {
@@ -53,11 +54,13 @@ function GetDaojishi() {
             document.getElementById("#btn").setAttribute("disabled", true);
             document.getElementById("#btn").value="重新发送(" + wait + ")";
 
-            setTimeout(function() {
-                    wait--;
+            setInterval(function() {
+                     wait--;
+                    document.getElementById("u_Vcode").value = wait;
                 },
                 1000)
         }
+        return wait;
 
     }
 }

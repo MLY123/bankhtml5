@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5443dfeb-2599-408e-b61f-748b065c1b17" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5/dist/js/swiper.js" afterPath="$PROJECT_DIR$/html5/dist/js/swiper.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5/swiper.html" afterPath="$PROJECT_DIR$/html5/swiper.html" />
     </list>
@@ -18,21 +19,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="swiper.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="swiper.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html5/swiper.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="254" column="35" lean-forward="false" selection-start-line="254" selection-start-column="35" selection-end-line="254" selection-end-column="35" />
+            <state relative-caret-position="164">
+              <caret line="259" column="29" lean-forward="true" selection-start-line="259" selection-start-column="29" selection-end-line="259" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="swiper.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="swiper.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html5/dist/js/swiper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-92">
-              <caret line="56" column="27" lean-forward="false" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+            <state relative-caret-position="577">
+              <caret line="58" column="52" lean-forward="false" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -100,11 +101,11 @@
       <find>swiper-container</find>
       <find>recommend-bank</find>
       <find>loan-magin</find>
-      <find>vcode-view</find>
       <find>clearBoth</find>
       <find>wait</find>
       <find>bank-describe</find>
       <find>GetDaojishi</find>
+      <find>vcode-view</find>
     </findStrings>
     <replaceStrings>
       <replace>通过率：</replace>
@@ -119,8 +120,8 @@
         <option value="$PROJECT_DIR$/xieyi/xieyie.html" />
         <option value="$PROJECT_DIR$/bank/swiper.min.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/html5/dist/js/swiper.js" />
         <option value="$PROJECT_DIR$/html5/swiper.html" />
+        <option value="$PROJECT_DIR$/html5/dist/js/swiper.js" />
       </list>
     </option>
   </component>
@@ -131,8 +132,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="40" />
-    <option name="y" value="80" />
+    <option name="x" value="245" />
+    <option name="y" value="168" />
     <option name="width" value="1400" />
     <option name="height" value="866" />
   </component>
@@ -378,15 +379,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523325255357</updated>
-      <workItem from="1523325257005" duration="14040000" />
+      <workItem from="1523325257005" duration="17137000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14040000" />
+    <option name="totallyTimeSpent" value="17137000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="80" width="1400" height="866" extended-state="0" />
+    <frame x="245" y="168" width="1400" height="866" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24945612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -418,7 +419,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/html5/dist/js/swiper.js</url>
-          <line>39</line>
+          <line>40</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -470,18 +471,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html5/dist/js/swiper.js">
+    <entry file="file://$PROJECT_DIR$/html5/swiper.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-92">
-          <caret line="56" column="27" lean-forward="false" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+        <state relative-caret-position="164">
+          <caret line="259" column="29" lean-forward="true" selection-start-line="259" selection-start-column="29" selection-end-line="259" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html5/swiper.html">
+    <entry file="file://$PROJECT_DIR$/html5/dist/js/swiper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="254" column="35" lean-forward="false" selection-start-line="254" selection-start-column="35" selection-end-line="254" selection-end-column="35" />
+        <state relative-caret-position="577">
+          <caret line="58" column="52" lean-forward="false" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="52" />
           <folding />
         </state>
       </provider>
