@@ -67,8 +67,8 @@ if(document.getElementById("btn").value= wait + "s"){
                     if(wait<=0){
                         clearInterval(timer);
                         document.getElementById("btn").removeAttribute("disabled");
-                        document.getElementById("btn").value="重新获取验证码";
-                        btn.style.cssText = "font-size:4rem;border: none;outline: none;display:inline-block;background-color: transparent;color: #007AFF;width:340px;height: 10rem;"
+                        document.getElementById("btn").value="获取验证码";
+                        btn.style.cssText = "font-size:4rem;border: none;outline: none;display:inline-block;background-color: transparent;color: #1caaf0;width:340px;height: 10rem;"
                     }
                 },
                 1000)
