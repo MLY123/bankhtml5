@@ -1,6 +1,6 @@
 
 function VicCode() {
-    GetDaojishi();
+
 
     var u_Iphone = document.getElementById("u_Iphone").value;
 
@@ -26,7 +26,7 @@ function VicCode() {
             success: function (data) {
 
                 if(data.status == 200){
-
+                    GetDaojishi();
 
                     alert('验证码获取成功')
                 }else {
@@ -47,16 +47,22 @@ function GetDaojishi() {
 
     {
         if (wait == 0) {
-            document.getElementById("#btn").removeAttribute("disabled");
-            document.getElementById("#btn").value="免费获取验证码";
+            document.getElementById("btn").removeAttribute("disabled");
+            document.getElementById("btn").value="免费获取验证码";
             wait = 60;
         } else {
-            document.getElementById("#btn").setAttribute("disabled", true);
-            document.getElementById("#btn").value="重新发送(" + wait + ")";
+            document.getElementById("btn").setAttribute("disabled", true);
 
-            setInterval(function() {
-                     wait--;
-                    document.getElementById("u_Vcode").value = wait;
+
+         var timer =  setInterval(function() {
+
+                    document.getElementById("btn").value= wait + "s";
+                    wait--;
+                    if(wait<=0){
+                        clearInterval(timer);
+                        document.getElementById("btn").removeAttribute("disabled");
+                        document.getElementById("btn").value="重新获取验证码";
+                    }
                 },
                 1000)
         }
@@ -111,7 +117,7 @@ function applyCard() {
 
     } else {
 
-         alert("参数不能为空！");
+        alert("参数不能为空！");
 
     }
 }

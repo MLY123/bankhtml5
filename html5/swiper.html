@@ -98,7 +98,7 @@
             outline: none;
             display:inline-block;
             background-color: transparent;
-            width:400px;
+            width:340px;
             height: 10rem;
 
         }
@@ -185,20 +185,35 @@
         }
         .bank-button {
             width: 90%;
-
             margin-left: 5%;
-            margin-top: 7rem;
-            height: 12rem;
-            background-image: linear-gradient(270deg, #58BEFF, #247EFF);
-            border-radius: 6rem;
-            text-align: center;
-            line-height: 12rem;
+            margin-top: 10rem;
+            height: 10rem;
+            border-radius: 5rem;
+            text-align:center;
+              position: relative;
+            /*width: 90%;*/
 
+            /*margin-left: 5%;*/
+            /*margin-top: 7rem;*/
+            /*height: 12rem;*/
+
+            /*border-radius: 6rem;*/
+            /*text-align: center;*/
+            /*line-height: 12rem;*/
+            border: none;
         }
-        .bank-button a{
-            font-size: 5rem;
-            color: #fff;
-            
+
+        .bank-button input{
+            display:block;
+            height: 10rem;
+            font-size: 4rem;
+            background-color: #ccc;
+            border-radius:5rem;width:100%;text-align:center;color:#fff;
+            border:none;
+            line-height: 10rem;
+            position: absolute;
+            left: 0;
+            top:0;
         }
         .bank-xieyi {
             width: 70%;
@@ -241,27 +256,48 @@
 
             <div class="bank-describe">
                 <label for="Rname">申请人姓名</label>
-                <input type="text" placeholder="填写您的真实姓名" name="u_Name" id="u_Name">
+                <input class="enter-inf" type="text" placeholder="填写您的真实姓名" name="u_Name" id="u_Name">
             </div>
             <div class="bank-describe">
                 <label for="CardId">身份证号</label>
-                <input type="number" placeholder="输入身份证号" name="u_CardId" id="u_CardId">
+                <input class="enter-inf" type="number" placeholder="输入身份证号" name="u_CardId" id="u_CardId">
             </div>
             <div class="bank-describe">
                 <label for="Iphone">手机号</label>
-                <input type="tel" placeholder="输入您的手机号" name="u_Iphone" id="u_Iphone">
+                <input class="enter-inf" type="tel" placeholder="输入您的手机号" name="u_Iphone" id="u_Iphone">
             </div>
             <div class="vcode-view">
                 <label for="Vcode">验证码</label>
-                <input type="tel" placeholder="点击右边获取" name="u_Vcode" id="u_Vcode">
-
-                <a type="value" id="#btn" name="#btn" class="" onclick="VicCode()">获取验证码</a>
+                <input class="enter-inf" type="text" placeholder="请输入验证码" name="u_Vcode" id="u_Vcode"  class="enter-inf" style="width:300px;">
+                <input type="button" onclick="VicCode()" id="btn" value="免费获取验证码"  style="color:#00bbee;float:right;margin-right:30px;">
             </div>
         </ul>
     </div>
     <div class="bank-button">
-        <a onclick="applyCard()" >开始申请</a>
+        <input value="立即申请" class="submit" onclick="applyCard()" disabled >
     </div>
+            <script>
+
+                var enterInf = $(".enter-inf");
+                var submitBtn = $(".submit");
+                for(var i=0;i<enterInf.length;i++) {
+                    enterInf.eq(i).bind("input propertychange change",function(event){
+                        if(enterInf.eq(0).val() == '' || enterInf.eq(1).val() == '' || enterInf.eq(2).val() == '' || enterInf.eq(3).val() == '' ) {
+                            submitBtn.css("background","#ccc");
+                            submitBtn.attr("disabled",true);
+                        } else {
+                            submitBtn.css("background","linear-gradient(270deg, #58BEFF, #247EFF)");
+//                            $(".submit").addClass("btn_input")
+                            submitBtn.attr("disabled",false);
+                        }
+                    });
+                }
+
+
+
+
+
+            </script>
     <div class="bank-xieyi">
         <label>点击开始申请即表示同意</label>
         <a href="../xieyi/xieyie.html">《微创众包平台服务协议》</a>
