@@ -289,20 +289,22 @@
             <script>
 
                 var enterInf = $(".enter-inf");
-                var submitBtn = $(".submit");
-
+                 var flag=false;
                 for(var i=0;i<enterInf.length;i++) {
                     enterInf.eq(i).bind("input propertychange change",function(event){
                         if(enterInf.eq(0).val() == '' || enterInf.eq(1).val() == '' || enterInf.eq(2).val() == '' || enterInf.eq(3).val() == '' ) {
                             $(".submit").removeClass("p");
                             $(".submit").addClass("p1");
+                            flag=false;
 
-                            submitBtn.attr("disabled",true);
                         } else {
+
+
+                            flag=true;
                             $(".submit").removeClass("p1");
                             $(".submit").addClass("p");
                             submitBtn.style.cssText=""
-                            submitBtn.attr("disabled",false);
+
                         }
                     });
                 }
@@ -314,7 +316,7 @@
             </script>
     <div class="bank-xieyi">
         <label>点击开始申请即表示同意</label>
-        <a href="../xieyi/xieyie.html">《微创众包平台服务协议》</a>
+        <a href="../xieyi/xieyie.html">《用户服务协议》</a>
     </div>
             <!--<footer class="footer">-->
                 <!--<img class="classfooter" src="../Img/bg.png">-->

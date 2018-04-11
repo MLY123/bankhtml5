@@ -112,6 +112,10 @@ function GetQueryString(name)
 }
 //测试注册
 function applyCard() {
+    if(!flag){
+        return false;
+    }
+
     var u_Name = document.getElementById("u_Name").value;
     var u_CardId = document.getElementById("u_CardId").value;
     var u_Vcode = document.getElementById("u_Vcode").value;
