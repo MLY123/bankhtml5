@@ -191,7 +191,15 @@
             height: 12rem;
             border-radius: 6rem;
             text-align:center;
-              position: relative;
+            display:block;
+            font-size: 4rem;
+            background: #b2e6ff;
+            border:none;
+            line-height: 10rem;
+            left: 0;
+            top:0;
+            text-align:center;
+            color:#fff;
             /*width: 90%;*/
 
             /*margin-left: 5%;*/
@@ -240,7 +248,7 @@
             
         }
         .classfooter{
-            position: absolute;
+            position: fixed;
             bottom:0;
             left:0;
             height: 25rem;
@@ -283,8 +291,9 @@
             </div>
         </ul>
     </div>
-    <div class="bank-button">
-        <input type="button" value="立即申请" class="submit" onclick="applyCard()" >
+    <div  class="bank-button submit" onclick="applyCard()">
+        立即申请
+        <!--<input type="button" value="立即申请" class="submit" onclick="applyCard()" >-->
     </div>
             <script>
 
