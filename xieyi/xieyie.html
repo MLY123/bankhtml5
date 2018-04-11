@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8" name="viewport" content="user-scalable=0" />
     <title>用户服务协议</title>
-   
+
     <style>
         * {
-            font-size:35px;
+            /*font-size:35px;*/
             font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
             box-sizing:border-box;
             color:#333;
@@ -209,4 +209,18 @@
 </div>
 
 </body>
+<script src="../bank/jquery-2.1.4.min.js"></script>
+<script type="text/javascript">
+
+
+    var u = navigator.userAgent;
+    var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+    var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+    if(isAndroid){
+        $(".bank-xieyi").css("font-size","13px")
+    }
+    if(isiOS){
+        $(".bank-xieyi").css("font-size","20px")
+    }
+</script>
 </html>
