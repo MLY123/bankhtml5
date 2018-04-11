@@ -82,37 +82,9 @@ function applyCard() {
     var u_CardId = document.getElementById("u_CardId").value;
     var u_Vcode = document.getElementById("u_Vcode").value;
     var u_Iphone = document.getElementById("u_Iphone").value;
+    var reg =/^\d{6}$/;
     if((u_Name.length >0) && (u_CardId.length >0) && (u_Iphone.length >0)&&(u_Vcode.length >0) ) {
-        $.ajax({
-            type: "POST",
-            url: "https://api.thinkinfo.tech:8203/xhlc-front-app/wc_app/add_custinfo_applycard",
-            data: {realName:u_Name, smsCode:u_Vcode,certNo:u_CardId, mobile: u_Iphone,wc_identification:"MDEsMywwMSwzODc5ZDJmYi1kNzI2LTRkMWEtOTc0NS1lMzdjMWZhYmNlZjMsb044SUwweFpLZkNyWjdwblFaRWc0ZU9XMkxkTSwxMTQxLDMsMS4wLDE1MjMyNjA3MDI4MTE="},
-            dataType: "json",
-            timeout: 15000,
 
-            beforeSend: function () {
-                $("#indexTotal").hide();
-                $(".qunIn").css("display", "none");
-                $("#admin-detail").css("display", "none");
-                $("#showMes").show();
-            },
-            complete: function () {
-                $("#indexTotal").show();
-                $("#showMes").hide();
-
-            },
-            success: function (data) {
-
-                if(data.status == 200){
-
-                    window.location.href=GetQueryString("key");
-                    // alert(data.msg)
-                }else {
-                    alert(data.msg)
-                }
-
-            }
-        })
 
 
     } else {
@@ -120,4 +92,34 @@ function applyCard() {
         alert("参数不能为空！");
 
     }
+    $.ajax({
+        type: "POST",
+        url: "https://api.thinkinfo.tech:8203/xhlc-front-app/wc_app/add_custinfo_applycard",
+        data: {realName:u_Name, smsCode:u_Vcode,certNo:u_CardId, mobile: u_Iphone,wc_identification:"MDEsMywwMSwzODc5ZDJmYi1kNzI2LTRkMWEtOTc0NS1lMzdjMWZhYmNlZjMsb044SUwweFpLZkNyWjdwblFaRWc0ZU9XMkxkTSwxMTQxLDMsMS4wLDE1MjMyNjA3MDI4MTE="},
+        dataType: "json",
+        timeout: 15000,
+
+        beforeSend: function () {
+            $("#indexTotal").hide();
+            $(".qunIn").css("display", "none");
+            $("#admin-detail").css("display", "none");
+            $("#showMes").show();
+        },
+        complete: function () {
+            $("#indexTotal").show();
+            $("#showMes").hide();
+
+        },
+        success: function (data) {
+
+            if(data.status == 200){
+
+                window.location.href=GetQueryString("key");
+                // alert(data.msg)
+            }else {
+                alert(data.msg)
+            }
+
+        }
+    })
 }
