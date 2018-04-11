@@ -1,6 +1,6 @@
 
 function VicCode() {
-    GetDaojishi();
+
 
     var u_Iphone = document.getElementById("u_Iphone").value;
 
