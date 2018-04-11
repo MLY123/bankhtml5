@@ -288,11 +288,10 @@
                     enterInf.eq(i).bind("input propertychange change",function(event){
                         if(enterInf.eq(0).val() == '' || enterInf.eq(1).val() == '' || enterInf.eq(2).val() == '' || enterInf.eq(3).val() == '' ) {
                             submitBtn.css("background","#ccc");
-                            submitBtn.attr("disabled",true);
+//                            submitBtn.attr("disabled",true);
                         } else {
                             submitBtn.css("background","linear-gradient(270deg, #58BEFF, #247EFF)");
-//                            $(".submit").addClass("btn_input")
-                            submitBtn.attr("disabled",false);
+//                            submitBtn.attr("disabled",false);
                         }
                     });
                 }
