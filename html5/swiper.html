@@ -240,7 +240,7 @@
             
         }
         .classfooter{
-            position: fixed;
+            position: absolute;
             bottom:0;
             left:0;
             height: 25rem;
@@ -270,7 +270,7 @@
             </div>
             <div class="bank-describe">
                 <label for="CardId">身份证号</label>
-                <input class="enter-inf" maxlength = 18 type="number" placeholder="输入身份证号" name="u_CardId" id="u_CardId">
+                <input class="enter-inf" maxlength = 18 type="text" placeholder="输入身份证号" name="u_CardId" id="u_CardId">
             </div>
             <div class="bank-describe">
                 <label for="Iphone">手机号</label>
@@ -301,6 +301,7 @@
                         } else {
                             $(".submit").removeClass("p1");
                             $(".submit").addClass("p");
+                            submitBtn.style.cssText=""
                             submitBtn.attr("disabled",false);
                         }
                     });
