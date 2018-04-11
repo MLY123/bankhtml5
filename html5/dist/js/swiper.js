@@ -1,13 +1,28 @@
 
 function VicCode() {
 
-
+    var regPhone = /^1[3-9][0-9][\s\S]*$/;
     var u_Iphone = document.getElementById("u_Iphone").value;
 
-    if((u_Iphone.length >0 )) {
+    if(u_Iphone.length <= 0){
+        Toast("手机号不能为空！",2000);
+        return false;
+    }
+    if(u_Iphone.length != 11){
+        Toast("请输入正确的手机号码！",2000);
+        return false;
+    }
+    if(u_Iphone.length == 11  ) {
+        if(!regPhone.test(u_Iphone)){
+            Toast("请输入正确的手机号码！",2000);
+            return false;
+        }
+
+    }
+
         $.ajax({
             type: "POST",
-            url: "https://api.thinkinfo.tech:8203/xhlc-front-app/wc_app/getcode",
+            url: "https://api.thinkinfo.tech:8203/xhlc-front-app/record/mobile_code",
             data: {mobile: u_Iphone},
             dataType: "json",
             timeout: 15000,
@@ -30,19 +45,17 @@ function VicCode() {
 
                     Toast('验证码获取成功',2000);
                 }
-                 if(data.status == 202){
-                     Toast(data.msg,2000);
+                if(data.status == 201){
+                    Toast(data.msg,2000);
+                }
+                if(data.status == 202){
+                    Toast(data.msg,2000);
                 }
 
             }
         })
 
 
-    } else {
-        Toast("手机号不能为空！",2000);
-
-
-    }
 }
 function GetDaojishi() {
     var wait = 120;
@@ -105,7 +118,7 @@ function applyCard() {
     var u_Iphone = document.getElementById("u_Iphone").value;
 
     var regCode =/^\d{6}$/;
-    var regPhone = /^1[3-9][0-9][\s\S]*$/;
+
     var regCard1 =/^[1-9]\d{7}((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d{3}$/;
     var regCard2 =/^[1-9]\d{5}[1-9]\d{3}((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d{3}([0-9]|X)$/;
     if((u_CardId.length === 15)){
@@ -144,7 +157,7 @@ function applyCard() {
     $.ajax({
         type: "POST",
         url: "https://api.thinkinfo.tech:8203/xhlc-front-app/wc_app/add_custinfo_applycard",
-        data: {realName:u_Name, smsCode:u_Vcode,certNo:u_CardId, mobile: u_Iphone,wc_identification:"MDEsMywwMSwzODc5ZDJmYi1kNzI2LTRkMWEtOTc0NS1lMzdjMWZhYmNlZjMsb044SUwweFpLZkNyWjdwblFaRWc0ZU9XMkxkTSwxMTQxLDMsMS4wLDE1MjMyNjA3MDI4MTE="},
+        data: {name:u_Name, code:u_Vcode,idNo:u_CardId, mobile:u_Iphone},
         dataType: "json",
         timeout: 15000,
 
