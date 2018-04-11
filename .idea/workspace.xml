@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5443dfeb-2599-408e-b61f-748b065c1b17" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5/dist/js/swiper.js" afterPath="$PROJECT_DIR$/html5/dist/js/swiper.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5/swiper.html" afterPath="$PROJECT_DIR$/html5/swiper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="swiper.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="swiper.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html5/dist/js/swiper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1198">
-              <caret line="136" column="5" lean-forward="true" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
+            <state relative-caret-position="279">
+              <caret line="77" column="250" lean-forward="false" selection-start-line="77" selection-start-column="250" selection-end-line="77" selection-end-column="250" />
               <folding />
             </state>
           </provider>
@@ -62,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="154" column="26" lean-forward="true" selection-start-line="154" selection-start-column="26" selection-end-line="154" selection-end-column="26" />
+            <state relative-caret-position="667">
+              <caret line="361" column="4" lean-forward="false" selection-start-line="361" selection-start-column="4" selection-end-line="361" selection-end-column="4" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -116,8 +114,8 @@
       <find>wait</find>
       <find>bank-describe</find>
       <find>GetDaojishi</find>
-      <find>loan-magin</find>
       <find>vcode-view</find>
+      <find>loan-magin</find>
     </findStrings>
     <replaceStrings>
       <replace>通过率：</replace>
@@ -131,9 +129,9 @@
       <list>
         <option value="$PROJECT_DIR$/bank/swiper.min.css" />
         <option value="$PROJECT_DIR$/xieyi/xieyie.html" />
-        <option value="$PROJECT_DIR$/html5/dist/js/swiper.js" />
         <option value="$PROJECT_DIR$/html5/swiper.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/html5/dist/js/swiper.js" />
       </list>
     </option>
   </component>
@@ -405,12 +403,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523325255357</updated>
-      <workItem from="1523325257005" duration="29286000" />
+      <workItem from="1523325257005" duration="29518000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29286000" />
+    <option name="totallyTimeSpent" value="29518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="78" width="1400" height="866" extended-state="0" />
@@ -445,7 +443,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/html5/dist/js/swiper.js</url>
-          <line>40</line>
+          <line>41</line>
           <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -490,14 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html5/dist/js/swiper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1198">
-          <caret line="136" column="5" lean-forward="true" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xieyi/xieyie.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2470">
@@ -519,13 +509,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="154" column="26" lean-forward="true" selection-start-line="154" selection-start-column="26" selection-end-line="154" selection-end-column="26" />
+        <state relative-caret-position="667">
+          <caret line="361" column="4" lean-forward="false" selection-start-line="361" selection-start-column="4" selection-end-line="361" selection-end-column="4" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5/dist/js/swiper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="77" column="250" lean-forward="false" selection-start-line="77" selection-start-column="250" selection-end-line="77" selection-end-column="250" />
+          <folding />
         </state>
       </provider>
     </entry>
