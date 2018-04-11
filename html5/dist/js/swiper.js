@@ -28,9 +28,10 @@ function VicCode() {
                 if(data.status == 200){
                     GetDaojishi();
 
-                    Toast(data.msg,2000);
-                }else {
-                    Toast(data.msg,2000);
+                    Toast('验证码获取成功',2000);
+                }
+                 if(data.status == 202){
+                     Toast(data.msg,2000);
                 }
 
             }
@@ -44,14 +45,14 @@ function VicCode() {
     }
 }
 function GetDaojishi() {
-    var wait = 60;
+    var wait = 120;
     var btn = document.getElementById("btn");
     {
         if (wait == 0) {
             document.getElementById("btn").removeAttribute("disabled");
             document.getElementById("btn").value="获取验证码";
             btn.style.cssText = "font-size:4rem;border: none;outline: none;display:inline-block;background-color: transparent;color: #007AFF;width:340px;height: 10rem;"
-            wait = 60;
+            wait = 120;
         } else {
             document.getElementById("btn").setAttribute("disabled", true);
 
