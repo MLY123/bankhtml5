@@ -1,6 +1,5 @@
 
 function VicCode() {
-
     var regPhone = /^1[3-9][0-9][\s\S]*$/;
     var u_Iphone = document.getElementById("u_Iphone").value;
 
@@ -110,6 +109,12 @@ function GetQueryString(name)
     var r = window.location.search.substr(1).match(reg);
     if(r!=null)return  unescape(r[2]); return null;
 }
+function GetQueryString1(name)
+{
+    var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+    var r = window.location.search.substr(1).match(reg);
+    if(r!=null)return  unescape(r[2]); return null;
+}
 //测试注册
 function applyCard() {
     if(!flag){
@@ -158,10 +163,11 @@ function applyCard() {
         return false;
 
     }
+ alert(GetQueryString1("preduct"))
     $.ajax({
         type: "POST",
         url: "https://api.thinkinfo.tech:8203/xhlc-front-app/wc_app/add_custinfo_applycard",
-        data: {name:u_Name, code:u_Vcode,idNo:u_CardId, mobile:u_Iphone},
+        data: {name:u_Name, code:u_Vcode,idNo:u_CardId, mobile:u_Iphone,product:GetQueryString1("preduct")},
         dataType: "json",
         timeout: 15000,
 
