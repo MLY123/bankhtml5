@@ -28,9 +28,9 @@ function VicCode() {
                 if(data.status == 200){
                     GetDaojishi();
 
-                    alert('验证码获取成功')
+                    Toast(data.msg,2000);
                 }else {
-                    alert(data.msg)
+                    Toast(data.msg,2000);
                 }
 
             }
@@ -48,7 +48,7 @@ function GetDaojishi() {
     {
         if (wait == 0) {
             document.getElementById("btn").removeAttribute("disabled");
-            document.getElementById("btn").value="免费获取验证码";
+            document.getElementById("btn").value="获取验证码";
             wait = 60;
         } else {
             document.getElementById("btn").setAttribute("disabled", true);
@@ -70,6 +70,19 @@ function GetDaojishi() {
 
     }
 }
+function Toast(msg,duration){
+    duration=isNaN(duration)?3000:duration;
+    var m = document.createElement('div');
+    m.innerHTML = msg;
+    m.style.cssText="width: 60%;min-width: 150px;opacity: 0.7;height: 30px;color: rgb(255, 255, 255);line-height: 30px;text-align: center;border-radius: 5px;position: fixed;top: 40%;left: 20%;z-index: 999999;background: rgb(0, 0, 0);font-size: 12px;";
+    document.body.appendChild(m);
+    setTimeout(function() {
+        var d = 0.5;
+        m.style.webkitTransition = '-webkit-transform ' + d + 's ease-in, opacity ' + d + 's ease-in';
+        m.style.opacity = '0';
+        setTimeout(function() { document.body.removeChild(m) }, d * 1000);
+    }, duration);
+}
 function GetQueryString(name)
 {
     var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
@@ -84,42 +97,43 @@ function applyCard() {
     var u_Iphone = document.getElementById("u_Iphone").value;
     var reg =/^\d{6}$/;
     if((u_Name.length >0) && (u_CardId.length >0) && (u_Iphone.length >0)&&(u_Vcode.length >0) ) {
+        $.ajax({
+            type: "POST",
+            url: "https://api.thinkinfo.tech:8203/xhlc-front-app/wc_app/add_custinfo_applycard",
+            data: {realName:u_Name, smsCode:u_Vcode,certNo:u_CardId, mobile: u_Iphone,wc_identification:"MDEsMywwMSwzODc5ZDJmYi1kNzI2LTRkMWEtOTc0NS1lMzdjMWZhYmNlZjMsb044SUwweFpLZkNyWjdwblFaRWc0ZU9XMkxkTSwxMTQxLDMsMS4wLDE1MjMyNjA3MDI4MTE="},
+            dataType: "json",
+            timeout: 15000,
 
+            beforeSend: function () {
+                $("#indexTotal").hide();
+                $(".qunIn").css("display", "none");
+                $("#admin-detail").css("display", "none");
+                $("#showMes").show();
+            },
+            complete: function () {
+                $("#indexTotal").show();
+                $("#showMes").hide();
+
+            },
+            success: function (data) {
+
+                if(data.status == 200){
+
+                    window.location.href=GetQueryString("key");
+                    // alert(data.msg)
+                }else {
+                    Toast(data.msg,2000);
+
+                }
+
+            }
+        })
 
 
     } else {
+        Toast("参数不能为空！",2000);
 
-        alert("参数不能为空！");
 
     }
-    $.ajax({
-        type: "POST",
-        url: "https://api.thinkinfo.tech:8203/xhlc-front-app/wc_app/add_custinfo_applycard",
-        data: {realName:u_Name, smsCode:u_Vcode,certNo:u_CardId, mobile: u_Iphone,wc_identification:"MDEsMywwMSwzODc5ZDJmYi1kNzI2LTRkMWEtOTc0NS1lMzdjMWZhYmNlZjMsb044SUwweFpLZkNyWjdwblFaRWc0ZU9XMkxkTSwxMTQxLDMsMS4wLDE1MjMyNjA3MDI4MTE="},
-        dataType: "json",
-        timeout: 15000,
 
-        beforeSend: function () {
-            $("#indexTotal").hide();
-            $(".qunIn").css("display", "none");
-            $("#admin-detail").css("display", "none");
-            $("#showMes").show();
-        },
-        complete: function () {
-            $("#indexTotal").show();
-            $("#showMes").hide();
-
-        },
-        success: function (data) {
-
-            if(data.status == 200){
-
-                window.location.href=GetQueryString("key");
-                // alert(data.msg)
-            }else {
-                alert(data.msg)
-            }
-
-        }
-    })
 }
