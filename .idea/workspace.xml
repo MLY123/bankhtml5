@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5443dfeb-2599-408e-b61f-748b065c1b17" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xieyi/xieyie.html" afterPath="$PROJECT_DIR$/xieyi/xieyie.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="xieyie.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="xieyie.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xieyi/xieyie.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -60,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="361" column="4" lean-forward="false" selection-start-line="361" selection-start-column="4" selection-end-line="361" selection-end-column="4" />
+            <state relative-caret-position="551">
+              <caret line="503" column="9" lean-forward="false" selection-start-line="503" selection-start-column="9" selection-end-line="503" selection-end-column="9" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -128,10 +128,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/bank/swiper.min.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/html5/swiper.html" />
         <option value="$PROJECT_DIR$/html5/dist/js/swiper.js" />
         <option value="$PROJECT_DIR$/xieyi/xieyie.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -403,12 +403,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523325255357</updated>
-      <workItem from="1523325257005" duration="31290000" />
+      <workItem from="1523325257005" duration="31364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31290000" />
+    <option name="totallyTimeSpent" value="31364000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="92" y="41" width="1400" height="866" extended-state="0" />
@@ -488,18 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="361" column="4" lean-forward="false" selection-start-line="361" selection-start-column="4" selection-end-line="361" selection-end-column="4" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html5/swiper.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
@@ -524,6 +512,18 @@
         <state relative-caret-position="285">
           <caret line="171" column="32" lean-forward="false" selection-start-line="171" selection-start-column="32" selection-end-line="171" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="503" column="9" lean-forward="false" selection-start-line="503" selection-start-column="9" selection-end-line="503" selection-end-column="9" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
