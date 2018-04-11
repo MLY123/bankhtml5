@@ -75,7 +75,7 @@ function Toast(msg,duration){
     duration=isNaN(duration)?3000:duration;
     var m = document.createElement('div');
     m.innerHTML = msg;
-    m.style.cssText="width: 60%;min-width: 10rem;opacity: 0.7;height: 10rem;color: rgb(255, 255, 255);line-height: 30px;text-align: center;border-radius: 2rem;position: fixed;top: 40%;left: 20%;z-index: 999999;background: rgb(0, 0, 0);font-size: 4rem;";
+    m.style.cssText="width: 60%;min-width: 10rem;opacity: 0.7;height: 10rem;color: rgb(255, 255, 255);line-height: 10rem;text-align: center;border-radius: 2rem;position: fixed;top: 40%;left: 20%;z-index: 999999;background: rgb(0, 0, 0);font-size: 4rem;";
     document.body.appendChild(m);
     setTimeout(function() {
         var d = 0.5;

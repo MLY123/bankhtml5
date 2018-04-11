@@ -43,8 +43,8 @@
       <file leaf-file-name="swiper.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html5/dist/js/swiper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="77" column="250" lean-forward="false" selection-start-line="77" selection-start-column="250" selection-end-line="77" selection-end-column="250" />
+            <state relative-caret-position="291">
+              <caret line="77" column="120" lean-forward="false" selection-start-line="77" selection-start-column="120" selection-end-line="77" selection-end-column="120" />
               <folding />
             </state>
           </provider>
@@ -403,12 +403,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523325255357</updated>
-      <workItem from="1523325257005" duration="29518000" />
+      <workItem from="1523325257005" duration="29607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29518000" />
+    <option name="totallyTimeSpent" value="29607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="78" width="1400" height="866" extended-state="0" />
@@ -521,8 +521,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html5/dist/js/swiper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="77" column="250" lean-forward="false" selection-start-line="77" selection-start-column="250" selection-end-line="77" selection-end-column="250" />
+        <state relative-caret-position="291">
+          <caret line="77" column="120" lean-forward="false" selection-start-line="77" selection-start-column="120" selection-end-line="77" selection-end-column="120" />
           <folding />
         </state>
       </provider>
