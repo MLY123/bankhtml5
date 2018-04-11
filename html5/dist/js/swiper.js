@@ -1,6 +1,6 @@
 
 function VicCode() {
-
+    GetDaojishi();
 
     var u_Iphone = document.getElementById("u_Iphone").value;
 
@@ -59,7 +59,7 @@ function GetDaojishi() {
          var timer =  setInterval(function() {
 if(document.getElementById("btn").value= wait + "s"){
 
-    btn.style.cssText = "font-size:4rem;border: none;outline: none;display:inline-block;color: #888888;background-color: transparent;margin-left:240px;width:100px;height: 10rem;"
+    btn.style.cssText = "font-size:4rem;border: none;outline: none;display:inline-block;color: #bbbbbb;background-color: transparent;float: right;margin-right: 60px;width:100px;height: 10rem;"
 }
 
 
@@ -105,22 +105,39 @@ function applyCard() {
 
     var regCode =/^\d{6}$/;
     var regPhone = /^1[3-9][0-9][\s\S]*$/;
-    var regCard1 =/^\d{15}$/;
-    var regCard2 =/^\d{18}$/;
-    if(!regCard1.test(u_CardId) || !regCard2.test(u_CardId)){
+    var regCard1 =/^[1-9]\d{7}((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d{3}$/;
+    var regCard2 =/^[1-9]\d{5}[1-9]\d{3}((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d{3}([0-9]|X)$/;
+    if((u_CardId.length === 15)){
+        if(!(regCard1.test(u_CardId))){
+            Toast("请输入正确的身份证号码",2000);
+            return false;
+        }
+
+    }
+    if (( u_CardId.length === 18) ){
+        // alert(regCard2.test(u_CardId))
+        if(!(regCard2.test(u_CardId))){
+            Toast("请输入正确的身份证号码",2000);
+            return false;
+        }
+
+    }
+    if(u_CardId.length != 15 && u_CardId.length !=18){
         Toast("请输入正确的身份证号码",2000);
-        return;
+        return false;
     }
     if(!regPhone.test(u_Iphone)){
         Toast("请输入正确的手机号",2000);
+        return false;
     }
-    if(!regCode.test(u_Vcode)){
+    if(!(u_Vcode.length === 6)){
         Toast("请输入正确的验证码",2000);
+        return false;
     }
-    if((u_Name.length <0) && (u_CardId.length <0) && (u_Iphone.length <0)&&(u_Vcode.length <0) ) {
+    if((u_Name.length <0)) {
 
-        Toast("参数不能为空！",2000);
-        return;
+        Toast("姓名不能为空！",2000);
+        return false;
 
     }
     $.ajax({
@@ -148,7 +165,7 @@ function applyCard() {
                 window.location.href=GetQueryString("key");
                 // alert(data.msg)
             }else {
-                Toast(data.msg,2000);
+                 Toast(data.msg,2000);
 
             }
 

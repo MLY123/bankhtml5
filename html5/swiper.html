@@ -208,13 +208,19 @@
             display:block;
             height: 12rem;
             font-size: 4rem;
-            background: #000;
+            background: #b2e6ff;
             border-radius:6rem;width:100%;text-align:center;color:#fff;
             border:none;
             line-height: 10rem;
             position: absolute;
             left: 0;
             top:0;
+        }
+        .bank-button .p1{
+            background: #b2e6ff;
+        }
+        .bank-button .p{
+            background:linear-gradient(-270deg,#247eff,#58beff);
         }
         .bank-xieyi {
             width: 70%;
@@ -230,7 +236,7 @@
         }
         .bank-xieyi a{
             font-size: 2.8rem;
-            color: #007AFF;
+            color: #1caaf0;
             
         }
         .classfooter{
@@ -264,16 +270,16 @@
             </div>
             <div class="bank-describe">
                 <label for="CardId">身份证号</label>
-                <input class="enter-inf" type="number" placeholder="输入身份证号" name="u_CardId" id="u_CardId">
+                <input class="enter-inf" maxlength = 18 type="number" placeholder="输入身份证号" name="u_CardId" id="u_CardId">
             </div>
             <div class="bank-describe">
                 <label for="Iphone">手机号</label>
-                <input class="enter-inf" type="tel" placeholder="输入您的手机号" name="u_Iphone" id="u_Iphone">
+                <input class="enter-inf" maxlength = 11 type="tel" placeholder="输入您的手机号" name="u_Iphone" id="u_Iphone">
             </div>
             <div class="vcode-view">
                 <label for="Vcode">验证码</label>
-                <input class="enter-inf" type="tel" placeholder="请输入验证码" name="u_Vcode" id="u_Vcode"  class="enter-inf" style="width:300px;">
-                <input type="button" onclick="VicCode()" id="btn" value="获取验证码"  style="color:#007AFF;float:right;margin-right:30px;">
+                <input class="enter-inf" maxlength = 6 type="tel" placeholder="请输入验证码" name="u_Vcode" id="u_Vcode"  class="enter-inf" style="width:300px;">
+                <input type="submit" onclick="VicCode()" id="btn" value="获取验证码"  style="width:240px;color:#1caaf0;float:right;margin-right:60px;text-align: right">
             </div>
         </ul>
     </div>
@@ -284,14 +290,18 @@
 
                 var enterInf = $(".enter-inf");
                 var submitBtn = $(".submit");
+
                 for(var i=0;i<enterInf.length;i++) {
                     enterInf.eq(i).bind("input propertychange change",function(event){
                         if(enterInf.eq(0).val() == '' || enterInf.eq(1).val() == '' || enterInf.eq(2).val() == '' || enterInf.eq(3).val() == '' ) {
-                            submitBtn.css("background","#000");
-//                            submitBtn.attr("disabled",true);
+                            $(".submit").removeClass("p");
+                            $(".submit").addClass("p1");
+
+                            submitBtn.attr("disabled",true);
                         } else {
-                            submitBtn.css("background","#247EFF");
-//                            submitBtn.attr("disabled",false);
+                            $(".submit").removeClass("p1");
+                            $(".submit").addClass("p");
+                            submitBtn.attr("disabled",false);
                         }
                     });
                 }
