@@ -41,13 +41,10 @@ function VicCode() {
                 GetDaojishi();
 
                 Toast('验证码获取成功',2000);
-            }
-            if(data.status == 201){
+            }else{
                 Toast(data.msg,2000);
             }
-            if(data.status == 202){
-                Toast(data.msg,2000);
-            }
+           
 
         }
     })
