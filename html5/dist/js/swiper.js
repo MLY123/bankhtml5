@@ -1,7 +1,7 @@
-
 function VicCode() {
     var regPhone = /^1[3-9][0-9][\s\S]*$/;
     var u_Iphone = document.getElementById("u_Iphone").value;
+
     if(u_Iphone.length <= 0){
         Toast("手机号不能为空！",2000);
         return false;
@@ -18,40 +18,39 @@ function VicCode() {
 
     }
 
-        $.ajax({
-            type: "POST",
-            url: "https://api.thinkinfo.tech:8203/xhlc-front-app/record/mobile_code",
-            data: {mobile: u_Iphone},
-            dataType: "json",
-            timeout: 15000,
+    $.ajax({
+        type: "POST",
+        url: "https://api.thinkinfo.tech:8203/xhlc-front-app/record/mobile_code",
+        data: {mobile: u_Iphone},
+        dataType: "json",
+        timeout: 15000,
 
-            beforeSend: function () {
-                $("#indexTotal").hide();
-                $(".qunIn").css("display", "none");
-                $("#admin-detail").css("display", "none");
-                $("#showMes").show();
-            },
-            complete: function () {
-                $("#indexTotal").show();
-                $("#showMes").hide();
+        beforeSend: function () {
+            $("#indexTotal").hide();
+            $(".qunIn").css("display", "none");
+            $("#admin-detail").css("display", "none");
+            $("#showMes").show();
+        },
+        complete: function () {
+            $("#indexTotal").show();
+            $("#showMes").hide();
 
-            },
-            success: function (data) {
-               alert(JSON.stringify(data));
-                if(data.status == 200){
-                    GetDaojishi();
+        },
+        success: function (data) {
+            if(data.status == 200){
+                GetDaojishi();
 
-                    Toast('验证码获取成功',2000);
-                }
-                if(data.status == 201){
-                    Toast(data.msg,2000);
-                }
-                if(data.status == 202){
-                    Toast(data.msg,2000);
-                }
-
+                Toast('验证码获取成功',2000);
             }
-        })
+            if(data.status == 201){
+                Toast(data.msg,2000);
+            }
+            if(data.status == 202){
+                Toast(data.msg,2000);
+            }
+
+        }
+    })
 
 
 }
@@ -68,12 +67,14 @@ function GetDaojishi() {
             document.getElementById("btn").setAttribute("disabled", true);
 
 
-         var timer =  setInterval(function() {
-if(document.getElementById("btn").value= wait + "s"){
+            var timer =  setInterval(function() {
+                    if(document.getElementById("btn").value= wait + "s"){
 
-    btn.style.cssText = "font-size:4rem;border: none;outline: none;display:inline-block;color: #bbbbbb;background-color: transparent;float: right;margin-right: 60px;width:150px;height: 10rem;"
-}
-                 wait--;
+                        btn.style.cssText = "font-size:4rem;border: none;outline: none;display:inline-block;color: #bbbbbb;background-color: transparent;float: right;margin-right: 60px;width:150px;height: 10rem;"
+                    }
+
+
+                    wait--;
                     if(wait<=0){
                         clearInterval(timer);
                         document.getElementById("btn").removeAttribute("disabled");
@@ -109,12 +110,11 @@ function GetQueryString1(name) {
 
     var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
     var r = window.location.search.substr(1).match(reg);
-     // alert(decodeURI(r[2]));
-    if(r!=null)return decodeURI(r[2]); return null;
+    // alert(decodeURI(r[2]));
+    if(r!=null)return r[2]; return null;
 }
 //测试注册
 function applyCard() {
-
     if(!flag){
         return false;
     }
@@ -164,7 +164,7 @@ function applyCard() {
     $.ajax({
         type: "POST",
         url: "http://apidev.thinkinfo.tech/record/save",
-        data: {name:u_Name, code:u_Vcode,idNo:u_CardId, mobile:u_Iphone,product:GetQueryString1("preduct")},
+        data: {name:u_Name, code:u_Vcode,idNo:u_CardId, mobile:u_Iphone,product:decodeURI(GetQueryString1("preduct"))},
         dataType: "json",
         timeout: 15000,
 
@@ -186,7 +186,7 @@ function applyCard() {
                 window.location.href=GetQueryString("key");
                 // alert(data.msg)
             }else {
-                 Toast(data.msg,2000);
+                Toast(data.msg,2000);
 
             }
 
