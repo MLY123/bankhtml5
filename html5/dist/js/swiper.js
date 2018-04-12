@@ -38,7 +38,7 @@ function VicCode() {
 
             },
             success: function (data) {
-
+                Toast(data.msg,2000);
                 if(data.status == 200){
                     GetDaojishi();
 
@@ -163,7 +163,7 @@ function applyCard() {
         return false;
 
     }
- alert(GetQueryString1("preduct"))
+ // alert(GetQueryString1("preduct"))
     $.ajax({
         type: "POST",
         url: "https://api.thinkinfo.tech:8203/xhlc-front-app/wc_app/add_custinfo_applycard",
@@ -183,7 +183,7 @@ function applyCard() {
 
         },
         success: function (data) {
-
+            Toast(data.msg,2000);
             if(data.status == 200){
 
                 window.location.href=GetQueryString("key");
