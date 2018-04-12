@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5443dfeb-2599-408e-b61f-748b065c1b17" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5/dist/js/swiper.js" afterPath="$PROJECT_DIR$/html5/dist/js/swiper.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xieyi/xieyie.html" afterPath="$PROJECT_DIR$/xieyi/xieyie.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -44,11 +45,10 @@
       <file leaf-file-name="swiper.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html5/dist/js/swiper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="65" column="168" lean-forward="false" selection-start-line="65" selection-start-column="168" selection-end-line="65" selection-end-column="168" />
+            <state relative-caret-position="-1344">
+              <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
               <folding>
                 <element signature="n#!!block;n#Toast#0" expanded="false" />
-                <element signature="n#!!block;n#GetQueryString1#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -57,8 +57,8 @@
       <file leaf-file-name="xieyie.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/xieyi/xieyie.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="149" column="30" lean-forward="false" selection-start-line="149" selection-start-column="30" selection-end-line="149" selection-end-column="30" />
+            <state relative-caret-position="458">
+              <caret line="539" column="23" lean-forward="false" selection-start-line="539" selection-start-column="23" selection-end-line="539" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -429,12 +429,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523325255357</updated>
-      <workItem from="1523325257005" duration="63877000" />
+      <workItem from="1523325257005" duration="64843000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63877000" />
+    <option name="totallyTimeSpent" value="64843000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="74" width="1400" height="866" extended-state="0" />
@@ -554,19 +554,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html5/dist/js/swiper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="65" column="168" lean-forward="false" selection-start-line="65" selection-start-column="168" selection-end-line="65" selection-end-column="168" />
+        <state relative-caret-position="-1344">
+          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
           <folding>
             <element signature="n#!!block;n#Toast#0" expanded="false" />
-            <element signature="n#!!block;n#GetQueryString1#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xieyi/xieyie.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="149" column="30" lean-forward="false" selection-start-line="149" selection-start-column="30" selection-end-line="149" selection-end-column="30" />
+        <state relative-caret-position="458">
+          <caret line="539" column="23" lean-forward="false" selection-start-line="539" selection-start-column="23" selection-end-line="539" selection-end-column="23" />
           <folding />
         </state>
       </provider>

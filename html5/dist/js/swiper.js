@@ -2,7 +2,6 @@
 function VicCode() {
     var regPhone = /^1[3-9][0-9][\s\S]*$/;
     var u_Iphone = document.getElementById("u_Iphone").value;
-
     if(u_Iphone.length <= 0){
         Toast("手机号不能为空！",2000);
         return false;
@@ -74,9 +73,7 @@ if(document.getElementById("btn").value= wait + "s"){
 
     btn.style.cssText = "font-size:4rem;border: none;outline: none;display:inline-block;color: #bbbbbb;background-color: transparent;float: right;margin-right: 60px;width:150px;height: 10rem;"
 }
-
-
-                    wait--;
+                 wait--;
                     if(wait<=0){
                         clearInterval(timer);
                         document.getElementById("btn").removeAttribute("disabled");
@@ -117,6 +114,7 @@ function GetQueryString1(name) {
 }
 //测试注册
 function applyCard() {
+
     if(!flag){
         return false;
     }
