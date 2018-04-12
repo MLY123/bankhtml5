@@ -73,7 +73,7 @@ function GetDaojishi() {
          var timer =  setInterval(function() {
 if(document.getElementById("btn").value= wait + "s"){
 
-    btn.style.cssText = "font-size:4rem;border: none;outline: none;display:inline-block;color: #bbbbbb;background-color: transparent;float: right;margin-right: 60px;width:100px;height: 10rem;"
+    btn.style.cssText = "font-size:4rem;border: none;outline: none;display:inline-block;color: #bbbbbb;background-color: transparent;float: right;margin-right: 60px;width:120px;height: 10rem;"
 }
 
 
