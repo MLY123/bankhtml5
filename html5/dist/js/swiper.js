@@ -44,7 +44,7 @@ function VicCode() {
             }else{
                 Toast(data.msg,2000);
             }
-           
+
 
         }
     })
@@ -163,7 +163,7 @@ function applyCard() {
 
     $.ajax({
         type: "POST",
-        url: "http://apidev.thinkinfo.tech/record/save",
+        url: "https://api.thinkinfo.tech:8203/xhlc-front-app/record/save",
         data: {name:u_Name, code:u_Vcode,idNo:u_CardId, mobile:u_Iphone,product:decodeURI(GetQueryString1("preduct"))},
         dataType: "json",
         timeout: 15000,
