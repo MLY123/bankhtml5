@@ -21,7 +21,7 @@ function VicCode() {
 
         $.ajax({
             type: "POST",
-            url: "http://apidev.thinkinfo.tech/record/mobile_code",
+            url: "https://api.thinkinfo.tech:8203/xhlc-front-app/record/mobile_code",
             data: {mobile: u_Iphone},
             dataType: "json",
             timeout: 15000,
