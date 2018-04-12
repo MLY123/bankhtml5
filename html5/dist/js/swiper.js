@@ -38,7 +38,7 @@ function VicCode() {
 
             },
             success: function (data) {
-                Toast(data.msg,2000);
+               alert(JSON.stringify(data));
                 if(data.status == 200){
                     GetDaojishi();
 
@@ -103,14 +103,12 @@ function Toast(msg,duration){
         setTimeout(function() { document.body.removeChild(m) }, d * 1000);
     }, duration);
 }
-function GetQueryString(name)
-{
+function GetQueryString(name) {
     var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
     var r = window.location.search.substr(1).match(reg);
     if(r!=null)return  unescape(r[2]); return null;
 }
-function GetQueryString1(name)
-{
+function GetQueryString1(name) {
 
     var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
     var r = window.location.search.substr(1).match(reg);
@@ -128,7 +126,6 @@ function applyCard() {
     var u_Vcode = document.getElementById("u_Vcode").value;
     var u_Iphone = document.getElementById("u_Iphone").value;
 
-    var regCode =/^\d{6}$/;
     var regPhone = /^1[3-9][0-9][\s\S]*$/;
     var regCard1 =/^[1-9]\d{7}((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d{3}$/;
     var regCard2 =/^[1-9]\d{5}[1-9]\d{3}((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d{3}([0-9]|X)$/;
