@@ -111,13 +111,14 @@ function GetQueryString(name)
 }
 function GetQueryString1(name)
 {
+
     var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
     var r = window.location.search.substr(1).match(reg);
-    if(r!=null)return  unescape(r[2]); return null;
+     // alert(decodeURI(r[2]));
+    if(r!=null)return decodeURI(r[2]); return null;
 }
 //测试注册
 function applyCard() {
-
     if(!flag){
         return false;
     }
@@ -164,7 +165,7 @@ function applyCard() {
         return false;
 
     }
- // alert(GetQueryString1("preduct"))
+
     $.ajax({
         type: "POST",
         url: "http://apidev.thinkinfo.tech/record/save",
