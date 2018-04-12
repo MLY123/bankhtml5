@@ -21,7 +21,7 @@ function VicCode() {
 
         $.ajax({
             type: "POST",
-            url: "https://api.thinkinfo.tech:8203/xhlc-front-app/record/mobile_code",
+            url: "http://apidev.thinkinfo.tech/record/mobile_code",
             data: {mobile: u_Iphone},
             dataType: "json",
             timeout: 15000,
@@ -117,6 +117,7 @@ function GetQueryString1(name)
 }
 //测试注册
 function applyCard() {
+
     if(!flag){
         return false;
     }
@@ -127,7 +128,7 @@ function applyCard() {
     var u_Iphone = document.getElementById("u_Iphone").value;
 
     var regCode =/^\d{6}$/;
-
+    var regPhone = /^1[3-9][0-9][\s\S]*$/;
     var regCard1 =/^[1-9]\d{7}((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d{3}$/;
     var regCard2 =/^[1-9]\d{5}[1-9]\d{3}((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d{3}([0-9]|X)$/;
     if((u_CardId.length === 15)){
@@ -166,7 +167,7 @@ function applyCard() {
  // alert(GetQueryString1("preduct"))
     $.ajax({
         type: "POST",
-        url: "https://api.thinkinfo.tech:8203/xhlc-front-app/wc_app/add_custinfo_applycard",
+        url: "http://apidev.thinkinfo.tech/record/save",
         data: {name:u_Name, code:u_Vcode,idNo:u_CardId, mobile:u_Iphone,product:GetQueryString1("preduct")},
         dataType: "json",
         timeout: 15000,
@@ -183,9 +184,9 @@ function applyCard() {
 
         },
         success: function (data) {
+            alert(JSON.stringify(data));
             Toast(data.msg,2000);
             if(data.status == 200){
-
                 window.location.href=GetQueryString("key");
                 // alert(data.msg)
             }else {
