@@ -184,8 +184,8 @@ function applyCard() {
 
         },
         success: function (data) {
-            alert(JSON.stringify(data));
-            Toast(data.msg,2000);
+            // alert(JSON.stringify(data));
+            // Toast(data.msg,2000);
             if(data.status == 200){
                 window.location.href=GetQueryString("key");
                 // alert(data.msg)
