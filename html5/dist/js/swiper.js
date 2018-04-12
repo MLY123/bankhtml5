@@ -61,6 +61,7 @@ function GetDaojishi() {
         if (wait == 0) {
             document.getElementById("btn").removeAttribute("disabled");
             document.getElementById("btn").value="获取验证码";
+            btn.type="submit";
             btn.style.cssText = "font-size:4rem;border: none;outline: none;display:inline-block;background-color: transparent;color: #007AFF;width:340px;height: 10rem;"
             wait = 120;
         } else {
@@ -79,6 +80,7 @@ function GetDaojishi() {
                         clearInterval(timer);
                         document.getElementById("btn").removeAttribute("disabled");
                         document.getElementById("btn").value="获取验证码";
+                        btn.type="submit";
                         btn.style.cssText = "font-size:4rem;border: none;outline: none;display:inline-block;background-color: transparent;color: #1caaf0;width:340px;height: 10rem;"
                     }
                 },
