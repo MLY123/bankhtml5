@@ -63,8 +63,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="917">
-              <caret line="648" column="27" lean-forward="false" selection-start-line="648" selection-start-column="0" selection-end-line="649" selection-end-column="0" />
+            <state relative-caret-position="268">
+              <caret line="543" column="168" lean-forward="false" selection-start-line="543" selection-start-column="168" selection-end-line="543" selection-end-column="168" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#ul#1;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -168,8 +168,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="220" />
-    <option name="y" value="33" />
+    <option name="x" value="5" />
+    <option name="y" value="31" />
     <option name="width" value="1400" />
     <option name="height" value="866" />
   </component>
@@ -361,17 +361,18 @@
       <workItem from="1523847418331" duration="796000" />
       <workItem from="1523850458367" duration="5230000" />
       <workItem from="1523865482248" duration="304000" />
-      <workItem from="1523865855293" duration="5367000" />
+      <workItem from="1523865855293" duration="5641000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81207000" />
+    <option name="totallyTimeSpent" value="81481000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="220" y="33" width="1400" height="866" extended-state="0" />
+    <frame x="5" y="31" width="1400" height="866" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26468456" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26468456" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -822,8 +823,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="917">
-          <caret line="648" column="27" lean-forward="false" selection-start-line="648" selection-start-column="0" selection-end-line="649" selection-end-column="0" />
+        <state relative-caret-position="268">
+          <caret line="543" column="168" lean-forward="false" selection-start-line="543" selection-start-column="168" selection-end-line="543" selection-end-column="168" />
           <folding>
             <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#ul#1;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
