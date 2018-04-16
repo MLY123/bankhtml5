@@ -5,7 +5,9 @@
     <meta charset="UTF-8" name="viewport" content="user-scalable=0" />
     <title>信用产品推荐</title>
     <link type="text/css" rel="stylesheet" href="bank/swiper.min.css">
-    <script src="bank/jquery-2.1.4.min.js"></script>
+    <script src="bank/jquery-2.1.4.min.js">
+        var flag = false;
+    </script>
     <script src="bank/swiper.min.js"></script>
 
     <style>
@@ -106,6 +108,25 @@
             padding-left:3.5rem;
             border-bottom:1px solid #eeeeee;
         }
+        #leibie {
+           background-color: transparent;
+            height:100px;overflow: hidden;
+            border-bottom:1px solid #eeeeee;
+        }
+        #leibieleft{
+            margin-top: 20px;
+            height: 50px;
+            font-size: 40px;
+            float: left;
+            padding-left: 30px
+        }
+        #leibieliright{
+            margin-top: 20px;
+            height: 50px;
+            font-size: 40px;
+            float: right;
+            padding-right: 30px
+        }
         .recommend-bank ul li {
             float:left;
             width:50%;
@@ -156,7 +177,9 @@
         #cnzz_stat_icon_1273395913{
             display: none;
         }
-
+.clearBoth2{
+    display: none;
+}
     </style>
 </head>
 <body>
@@ -235,9 +258,17 @@
                 <!-- Add Pagination -->
                 <div class="swiper-pagination"></div>
             </div>
-            <div class="recommend-bank">
-                <h5>热门银行</h5>
-                <ul class="clearBoth">
+            <div class="loan-magin">
+            <div class="recommend-bank" >
+                <ul id="leibie">
+                    <a id="leibieleft" onclick="bank('1')">热门银行</a>
+                    <a id="leibieliright" onclick="bank('2')">热门贷款平台</a>
+                    <!--<li  style="font-size: 40px;float: left; ">热门贷款平台</li>-->
+                </ul>
+
+                <!--<h5>热门银行</h5>-->
+                <!--<h5>热门贷款平台</h5>-->
+                <ul class="clearBoth clearBoth1">
                     <li>
                         <div class="bank-icon">
                             <img src="Img/banner_rmdbank/jiaotong.png">
@@ -361,10 +392,9 @@
                 </ul>
 
             </div>
-            <div class="loan-magin">
-                <div class="recommend-bank">
-                    <h5>热门贷款平台</h5>
-                    <ul class="clearBoth">
+
+                <div class="recommend-bank" >
+                    <ul class="clearBoth  clearBoth2">
                         <li>
                             <div class="bank-icon">
                                 <img src="Img/banner_rmdloan/shengbei.png">
@@ -406,7 +436,7 @@
                                 <img src="Img/banner_rmdloan/xiaoyingkadai.png">
                             </div>
                             <div class="bank-describe">
-                                <a href="html5/swiper.html?preduct=小赢卡贷&key=https://cardloan.xiaoying.com/kadaicredit/index?source=10000505">
+                                <a href="html5/swiper.html?preduct=小赢卡贷&key=https://cardloan.xiaoying.com/kadai/kadaireg?source=100011361">
                                     <h6>小赢卡贷</h6>
                                     <font>省钱利器，到账快</font>
                                     <p>通过率：<span class="color-red">70%</span></p>
@@ -451,16 +481,105 @@
                         </li>
                         <li>
                             <div class="bank-icon">
-                                <img src="Img/banner_rmdloan/youyudai.png">
+                                <img src="Img/banner_rmdloan/renrendai.png">
                             </div>
                             <div class="bank-describe">
-                                <a href="html5/swiper.html?preduct=有鱼贷&key=http://www.huishuaka.com/5/youyudai/?tuiguang=shengbei">
-                                    <h6>有鱼贷</h6>
-                                    <font>最高10万额度</font>
+                                <a href="html5/swiper.html?preduct=人人贷&key=https://loan.renrendai.com/static/public/lp-zhy.html?utm_source=JDPTQD&utm_medium=JDPTQD_GZJR&utm_campaign=CPA&utm_content=20180411&utm_term=3&rrdorigin=09136000100010003">
+                                    <h6>人人贷</h6>
+                                    <font>10万额度，日息超低</font>
                                     <p>通过率：<span class="color-red">50%</span></p>
                                 </a>
                             </div>
                         </li>
+                        <li>
+                            <div class="bank-icon">
+                                <img src="Img/banner_rmdloan/shoujidai.png">
+                            </div>
+                            <div class="bank-describe">
+                                <a href="html5/swiper.html?preduct=手机贷&key=https://m.shoujidai.com/?channel=dktg0347-llcs&typeId=2&utm_tag=&autodown=0">
+                                    <h6>手机贷</h6>
+                                    <font>10万额度，日息超低</font>
+                                    <p>通过率：<span class="color-red">50%</span></p>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="bank-icon">
+                                <img src="Img/banner_rmdloan/xiaohuaqianbao.png">
+                            </div>
+                            <div class="bank-describe">
+                                <a href="html5/swiper.html?preduct=小花钱包&key=https://www.xhqb.com/m/ffpp.html?appChannel=shengb05">
+                                    <h6>小花钱包</h6>
+                                    <font>5万额度，3分钟放款</font>
+                                    <p>通过率：<span class="color-red">50%</span></p>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="bank-icon">
+                                <img src="Img/banner_rmdloan/xianjinjiekuan.png">
+                            </div>
+                            <div class="bank-describe">
+                                <a href="html5/swiper.html?preduct=现金借款&key=https://www.yangqianguan.com/flexible/index?act=5NGxcz">
+                                    <h6>现金借款</h6>
+                                    <font>5万额度，1小时到账</font>
+                                    <p>通过率：<span class="color-red">50%</span></p>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="bank-icon">
+                                <img src="Img/banner_rmdloan/boluodai.png">
+                            </div>
+                            <div class="bank-describe">
+                                <a href="html5/swiper.html?preduct=菠萝贷&key=http://tuanzidai.cn/frontend_loan_service/common?appid=3&channel=120183&activity=ss3&funid=105&rt=1000">
+                                    <h6>菠萝贷</h6>
+
+                                    <font>借款被拒就赔88元</font>
+                                    <p>通过率：<span class="color-red">50%</span></p>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="bank-icon">
+                                <img src="Img/banner_rmdloan/zhouzhuanwang.png">
+                            </div>
+                            <div class="bank-describe">
+                                <a href="html5/swiper.html?preduct=周转王&key=http://c1.hfenq.cn/zhouzhuanking/extension?ADTAG=zzw.tsjf.3">
+                                    <h6>周转王</h6>
+
+                                    <font>芝麻分580即可借款</font>
+                                    <p>通过率：<span class="color-red">50%</span></p>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="bank-icon">
+                                <img src="Img/banner_rmdloan/juzixinyong.png">
+                            </div>
+                            <div class="bank-describe">
+                                <a href="html5/swiper.html?preduct=柚子信用&key=https://youzi-agent.yylky.cn/mobile/youzi?C2D4D299460497DE786BF69B81C96BCAEFDE2C5AE639618B0E8A973E69BA5630=">
+                                    <h6>柚子信用</h6>
+
+                                    <font>芝麻分600即可借款</font>
+                                    <p>通过率：<span class="color-red">50%</span></p>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="bank-icon">
+                                <img src="Img/banner_rmdloan/yimiaodao.png">
+                            </div>
+                            <div class="bank-describe">
+                                <a href="html5/swiper.html?preduct=益秒到&key=https://credit.yxjr360.com/credit-loan/register/view/01/main.html?channelNo=SB_2">
+                                    <h6>益秒到</h6>
+
+                                    <font>有信用卡就能贷5万</font>
+                                    <p>通过率：<span class="color-red">50%</span></p>
+                                </a>
+                            </div>
+                        </li>
+
                         <li>
                             <div class="bank-icon">
                                 <img src="Img/banner_rmdloan/daishangqian.png">
@@ -485,18 +604,7 @@
                                 </a>
                             </div>
                         </li>
-                        <li>
-                            <div class="bank-icon">
-                                <img src="Img/banner_rmdloan/haoyijie.png">
-                            </div>
-                            <div class="bank-describe">
-                                <a href="html5/swiper.html?preduct=好易借&key=http://haoyijie888.hzed.com/activity/wx20170901/?hfrom=sbe12 coreCode=HZDW000010961&paraPromoCode=EW0004600000000CYT7">
-                                    <h6>好易借</h6>
-                                    <font>小额快速贷款申请</font>
-                                    <p>通过率：<span class="color-red">50%</span></p>
-                                </a>
-                            </div>
-                        </li>
+
                         <li>
                             <div class="bank-icon">
                                 <img src="Img/banner_rmdloan/baoyouqian.png">
@@ -534,6 +642,20 @@
         });
     </script>
 </body>
+<script>
+function bank(x){
+    if(x==1){
+        $('.clearBoth2').hide();
+        $('.clearBoth1').show();
 
+    }else{
+        $('.clearBoth1').hide();
+        $('.clearBoth2').show();
+
+    }
+}
+
+
+</script>
 <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1273395913'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1273395913%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
 </html>
