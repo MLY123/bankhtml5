@@ -111,22 +111,31 @@
         #leibie {
            background-color: transparent;
             height:100px;overflow: hidden;
-            border-bottom:1px solid #eeeeee;
+display: flex;
+            flex-direction: row;
+            justify-content: space-around;
         }
-        #leibieleft{
+
+
+        .leibieliright{
             margin-top: 20px;
-            height: 50px;
+            height: 80px;
             font-size: 40px;
-            float: left;
-            padding-left: 30px
-        }
-        #leibieliright{
-            margin-top: 20px;
-            height: 50px;
-            font-size: 40px;
+            width: 35%;
             float: right;
-            padding-right: 30px
+            text-align: center;
+            margin-bottom: 10px;
+            display: inline-block;
+            color:#ccc;
         }
+        .leibielileft{
+           color:#000000;
+            font-size: 40px;
+            font-weight: bold;
+            border-bottom: #000 solid 3px;
+        }
+
+
         .recommend-bank ul li {
             float:left;
             width:50%;
@@ -176,6 +185,14 @@
         }
         #cnzz_stat_icon_1273395913{
             display: none;
+        }
+        dailyTop{
+            border-bottom: blue solid 3px;
+            color: blue;
+        }
+        weekTop{
+            border-bottom: blue solid 3px;
+            color: blue;
         }
 .clearBoth2{
     display: none;
@@ -261,8 +278,8 @@
             <div class="loan-magin">
             <div class="recommend-bank" >
                 <ul id="leibie">
-                    <a id="leibieleft" onclick="bank('1')">热门银行</a>
-                    <a id="leibieliright" onclick="bank('2')">热门贷款平台</a>
+                    <a class="leibieliright leibielileft a"  onclick="bank('1')">热门银行</a>
+                    <a class="leibieliright b"  onclick="bank('2')">热门贷款平台</a>
                     <!--<li  style="font-size: 40px;float: left; ">热门贷款平台</li>-->
                 </ul>
 
@@ -644,15 +661,22 @@
 </body>
 <script>
 function bank(x){
+
     if(x==1){
         $('.clearBoth2').hide();
         $('.clearBoth1').show();
+        $('.leibielileft').show();
+        $(".a").addClass("leibielileft");
+        $(".b").removeClass("leibielileft");
 
     }else{
         $('.clearBoth1').hide();
         $('.clearBoth2').show();
-
+        $('.leibielileft').show();
+        $(".b").addClass("leibielileft");
+        $(".a").removeClass("leibielileft");
     }
+
 }
 
 
