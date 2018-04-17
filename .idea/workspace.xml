@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5443dfeb-2599-408e-b61f-748b065c1b17" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="5443dfeb-2599-408e-b61f-748b065c1b17" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -64,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
-              <caret line="434" column="24" lean-forward="false" selection-start-line="434" selection-start-column="24" selection-end-line="434" selection-end-column="24" />
+              <caret line="434" column="0" lean-forward="false" selection-start-line="434" selection-start-column="0" selection-end-line="434" selection-end-column="0" />
               <folding>
                 <element signature="n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -378,18 +376,17 @@
       <workItem from="1523865482248" duration="304000" />
       <workItem from="1523865855293" duration="5641000" />
       <workItem from="1523873255388" duration="370000" />
-      <workItem from="1523928160706" duration="730000" />
+      <workItem from="1523928160706" duration="887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82581000" />
+    <option name="totallyTimeSpent" value="82738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="31" width="1397" height="866" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2645349" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2645349" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -886,7 +883,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="434" column="24" lean-forward="false" selection-start-line="434" selection-start-column="24" selection-end-line="434" selection-end-column="24" />
+          <caret line="434" column="0" lean-forward="false" selection-start-line="434" selection-start-column="0" selection-end-line="434" selection-end-column="0" />
           <folding>
             <element signature="n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
