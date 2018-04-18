@@ -1,8 +1,11 @@
 function VicCode() {
+    // Toast("1",2000);
+
     var regPhone = /^1[3-9][0-9][\s\S]*$/;
     var u_Iphone = document.getElementById("u_Iphone").value;
 
     if(u_Iphone.length <= 0){
+
         Toast("手机号不能为空！",2000);
         return false;
     }
@@ -101,18 +104,18 @@ function Toast(msg,duration){
         setTimeout(function() { document.body.removeChild(m) }, d * 1000);
     }, duration);
 }
-function GetQueryString(name) {
-    var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
-    var r = window.location.search.substr(1).match(reg);
-    if(r!=null)return  unescape(r[2]); return null;
-}
-function GetQueryString1(name) {
-
-    var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
-    var r = window.location.search.substr(1).match(reg);
-    // alert(decodeURI(r[2]));
-    if(r!=null)return r[2]; return null;
-}
+// function GetQueryString(name) {
+//     var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+//     var r = window.location.search.substr(1).match(reg);
+//     if(r!=null)return  unescape(r[2]); return null;
+// }
+// function GetQueryString1(name) {
+//
+//     var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+//     var r = window.location.search.substr(1).match(reg);
+//     // alert(decodeURI(r[2]));
+//     if(r!=null)return r[2]; return null;
+// }
 //测试注册
 function applyCard() {
     if(!flag){
@@ -164,7 +167,7 @@ function applyCard() {
     $.ajax({
         type: "POST",
         url: "https://api.thinkinfo.tech:8203/xhlc-front-app/record/save",
-        data: {name:u_Name, code:u_Vcode,idNo:u_CardId, mobile:u_Iphone,product:decodeURI(GetQueryString1("preduct"))},
+        data: {name:u_Name, code:u_Vcode,idNo:u_CardId, mobile:u_Iphone,product:window.sessionStorage.getItem('product')},
         dataType: "json",
         timeout: 15000,
 
@@ -183,7 +186,7 @@ function applyCard() {
             // alert(JSON.stringify(data));
             // Toast(data.msg,2000);
             if(data.status == 200){
-                window.location.href=GetQueryString("key");
+                window.location.href=window.sessionStorage.getItem('key');
                 // alert(data.msg)
             }else {
                 Toast(data.msg,2000);
