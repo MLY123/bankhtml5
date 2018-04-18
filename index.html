@@ -226,7 +226,7 @@ display: flex;
                             <img src="Img/banner_adv/guangda.jpg">
                         </div>
                         <div class="banner-title">
-                            <h4>光大阳光银联IC白金信用卡</h4>
+                            <h4>光大银行-阳光银联IC白金信用卡</h4>
                             <p>信用额度3万起，首刷送10万积分</p>
 
                         </div>
@@ -241,7 +241,7 @@ display: flex;
                             <img src="Img/banner_adv/jiaotong.jpg">
                         </div>
                         <div class="banner-title">
-                            <h4>交通银行Y-POWER信用卡</h4>
+                            <h4>交通银行-Y-POWER信用卡</h4>
                             <p>100%取现额度，手续费低至5元/笔</p>
                         </div>
                      </a>
@@ -253,7 +253,7 @@ display: flex;
                             <img src="Img/banner_adv/zhaoshang.jpg">
                         </div>
                         <div class="banner-title">
-                            <h4>招商银行标准信用卡金卡</h4>
+                            <h4>招商银行-标准信用卡金卡</h4>
                             <p>积分永久有效，刷卡赢1000积分</p>
                         </div>
                         </a>
@@ -266,7 +266,7 @@ display: flex;
                             <img src="Img/banner_adv/jiaotong1.jpg">
                         </div>
                         <div class="banner-title">
-                            <h4>交通银行标准信用卡金卡</h4>
+                            <h4>交通银行-标准信用卡金卡</h4>
                             <p>境内外消费，都可选择人民币还款</p>
                         </div>
                         </a>
@@ -279,7 +279,7 @@ display: flex;
                             <img src="Img/banner_adv/zhongxin.jpg">
                         </div>
                         <div class="banner-title">
-                            <h4>中信银行i白金信用卡</h4>
+                            <h4>中信银行-i白金信用卡</h4>
                             <p>最好申请的小白金，网络交易双倍积分</p>
                         </div>
                         </a>
@@ -292,14 +292,14 @@ display: flex;
             <div class="loan-magin">
             <div class="recommend-bank" >
                 <ul id="leibie">
-                    <a class="leibieliright leibielileft a"  onclick="bank('1')">热门银行</a>
-                    <a class="leibieliright b"  onclick="bank('2')">热门贷款平台</a>
+                    <a class="leibieliright leibielileft a"  onclick="bank('1')">热门贷款平台</a>
+                    <a class="leibieliright b"  onclick="bank('2')">热门银行</a>
                     <!--<li  style="font-size: 40px;float: left; ">热门贷款平台</li>-->
                 </ul>
 
                 <!--<h5>热门银行</h5>-->
                 <!--<h5>热门贷款平台</h5>-->
-                <ul class="clearBoth clearBoth1">
+                <ul class="clearBoth clearBoth2">
                     <li>
                         <div class="bank-icon">
                             <img src="Img/banner_rmdbank/jiaotong.png">
@@ -474,7 +474,7 @@ display: flex;
             </div>
 
                 <div class="recommend-bank" >
-                    <ul class="clearBoth  clearBoth2">
+                    <ul class="clearBoth  clearBoth1">
 
                         <li>
                             <div class="bank-icon">
@@ -746,6 +746,7 @@ display: flex;
 function bank(x){
 
     if(x==1){
+
         $('.clearBoth2').hide();
         $('.clearBoth1').show();
         $('.leibielileft').show();
