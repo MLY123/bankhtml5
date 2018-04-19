@@ -1,5 +1,5 @@
 function VicCode() {
-
+ // alert(window.sessionStorage.getItem('prodduct-zh'));
     var regPhone = /^1[3-9][0-9][\s\S]*$/;
     var u_Iphone = document.getElementById("u_Iphone").value;
 
@@ -166,7 +166,7 @@ function applyCard() {
     $.ajax({
         type: "POST",
         url: "https://api.thinkinfo.tech:8203/xhlc-front-app/record/save",
-        data: {name:u_Name, code:u_Vcode,idNo:u_CardId, mobile:u_Iphone,ch:GetQueryString('ch'),product:window.sessionStorage.getItem('product')},
+        data: {name:u_Name, code:u_Vcode,idNo:u_CardId, mobile:u_Iphone,batch:GetQueryString('batch'),ch:GetQueryString('ch'),product:window.sessionStorage.getItem('prodduct-zh')},
         dataType: "json",
         timeout: 15000,
 

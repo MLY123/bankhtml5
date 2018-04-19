@@ -7,10 +7,13 @@
     <title>信用产品推荐</title>
     <link type="text/css" rel="stylesheet" href="bank/swiper.min.css">
     <script src="bank/jquery-2.1.4.min.js">
-        var flag = false;
     </script>
-    <script src="bank/swiper.min.js"></script>
-
+    <script src="bank/swiper.min.js">
+ </script>
+    <script>
+       var data1 = ['banner_xiaohua-ningqingren','banner_guangda-yangguang','banner_jiaotong-Y-POWER','banner_jiaotong-biaozhun','banner_zhaoshang-biaozhun','banner_zhongxin-ibaijin','bank_jiaotong','bank_guangda','bank_pingan','bank_zhongxin','bank_zhaoshang','bank_pufa','bank_huifeng','bank_guangzhou','bank_gongshang','bank_xingye','bank_shanghai','bank_zheshang','bank_huaxia', 'loan_xiaohuaqianbao','loan_youyudai','loan_xiaoxiaojinrong','loan_xianjindaikuan','loan_boluodai','loan_zhouzhuanwang','loan_youzixinyong','loan_51kabao','loan_yibiaodao','loan_shengbei','loan_360jietiao','loan_shoujidai','loan_xiaoyingkadai'];
+        var data2 = ['广告位-小花钱包-年轻人的互联网钱包','广告位-光大银行-阳光银联IC白金信用卡','广告位-交通银行-Y-POWER信用卡','广告位-招商银行-标准信用卡金卡','广告位-交通银行-标准信用卡金卡','广告位-中信银行-i白金信用卡', '交通银行','光大银行','平安银行','中信银行','招商银行','浦发银行','汇丰银行','广州银行','工商银行','兴业银行','上海银行','浙商银行','华夏银行','小花钱包','有鱼贷','小小金融','现金借款','菠萝贷','周转王','柚子信用','51卡宝','益秒到','省呗','360借条','手机贷','小赢卡贷']
+    </script>
     <style>
         * {
             font-size:10px;
@@ -236,7 +239,7 @@ display: flex;
                     
                     </div>
                     
-                    <div class="swiper-slide" onclick="to_swiper('banner_jiaotong-Y-POWER','https://xyk.cebbank.com/cebmms/apply/ps/card-index.htm?req_card_id=3341&pro_code=FHTG067632SJ79SHCY')" >
+                    <div class="swiper-slide" onclick="to_swiper('banner_jiaotong-Y-POWER',' https://creditcardapp.bankcomm.com/applynew/front/apply/track/record.html?trackCode=A1130160887023&cardId=2')" >
                         <!--<a href= "html5/swiper.html?preduct=交通银行Y-POWER卡&key=https://creditcardapp.bankcomm.com/applynew/front/apply/track/record.html?trackCode=A1113183494099&cardId=2">-->
                         <div class="banner-img">
                             <img src="Img/banner_adv/jiaotong.jpg">
@@ -261,7 +264,7 @@ display: flex;
                     </div>
                 
                  
-                    <div class="swiper-slide" onclick="to_swiper('banner_jiaotong-biaozhun','https://creditcardapp.bankcomm.com/applynew/front/apply/new/identity.html?trackCode=A1113183494099&channelCode=')">
+                    <div class="swiper-slide" onclick="to_swiper('banner_jiaotong-biaozhun','https://creditcardapp.bankcomm.com/applynew/front/apply/track/record.html?trackCode=A1130160887023&cardId=17')">
                         <!--<a href= "html5/swiper.html?preduct=交通银行标准信用卡金卡&key=https://creditcardapp.bankcomm.com/applynew/front/apply/new/identity.html?trackCode=A1113183494099&channelCode=">-->
                         <div class="banner-img" >
                             <img src="Img/banner_adv/jiaotong1.jpg">
@@ -300,7 +303,7 @@ display: flex;
                 <!--<h5>热门银行</h5>-->
                 <!--<h5>热门贷款平台</h5>-->
                 <ul class="clearBoth clearBoth2">
-                    <li onclick="to_swiper('jiaotong','https://creditcardapp.bankcomm.com/applynew/front/apply/track/record.html?trackCode=A1113183494099')">
+                    <li onclick="to_swiper('bank_jiaotong','https://creditcardapp.bankcomm.com/applynew/front/apply/track/record.html?trackCode=A1130160887023')">
                         <div class="bank-icon">
                             <img src="Img/banner_rmdbank/jiaotong.png">
                         </div>
@@ -312,7 +315,7 @@ display: flex;
                             <!--</a>-->
                         </div>
                     </li>
-                    <li onclick="to_swiper('guangda','https://xyk.cebbank.com/cebmms/apply/ps/card-list.htm?level=124&pro_code=FHTG067632SJ79SHCY')">
+                    <li onclick="to_swiper('bank_guangda','https://xyk.cebbank.com/cebmms/apply/ps/card-list.htm?level=124&pro_code=FHTG067632SJ79SHCY')">
                         <div class="bank-icon">
                             <img src="Img/banner_rmdbank/guangda.png">
                         </div>
@@ -324,7 +327,7 @@ display: flex;
                             <!--</a>-->
                         </div>
                     </li>
-                    <li onclick="to_swiper('pingan','https://bank-static.pingan.com.cn/ca/pc/index.html#/First?channel=WX&onlineSQFlag=N&validate=N&ccp=1a3a9a30at4a2a4a5a8a11a13a15a20ap3a26&scc=950000946&versionNo=R10310&sign=a8ebf12e-ac6f-4b61-a2f3-b5828220226b3a68ce2b728e3d82113de213d41af0a7')">
+                    <li onclick="to_swiper('bank_pingan','https://bank-static.pingan.com.cn/ca/pc/index.html#/First?channel=WX&onlineSQFlag=N&validate=N&ccp=1a3a9a30at4a2a4a5a8a11a13a15a20ap3a26&scc=950000946&versionNo=R10310&sign=a8ebf12e-ac6f-4b61-a2f3-b5828220226b3a68ce2b728e3d82113de213d41af0a7')">
 
                     <div class="bank-icon">
                             <img src="Img/banner_rmdbank/pingan.png">
@@ -337,7 +340,7 @@ display: flex;
                             <!--</a>-->
                         </div>
                     </li>
-                    <li onclick="to_swiper('zhongxin','http://creditcard.ecitic.com/h5/shenqing/index.html?foot s=0&sid=SJHSKQD16')">
+                    <li onclick="to_swiper('bank_zhongxin','http://creditcard.ecitic.com/h5/shenqing/index.html?foot s=0&sid=SJHSKQD16')">
                         <div class="bank-icon">
                             <img src="Img/banner_rmdbank/zhongxin.png">
                         </div>
@@ -349,7 +352,7 @@ display: flex;
                             <!--</a>-->
                         </div>
                     </li>
-                    <li onclick="to_swiper('zhaoshang','http://xyk.cmbchina.com/Latte/card/cardList?WT.mc_id=N3700MM20611329500SK')">
+                    <li onclick="to_swiper('bank_zhaoshang','http://xyk.cmbchina.com/Latte/card/cardList?WT.mc_id=N3700MM20611329500SK')">
                         <div class="bank-icon">
                             <img src="Img/banner_rmdbank/zhaoshang.png">
                         </div>
@@ -361,7 +364,7 @@ display: flex;
                             <!--</a>-->
                         </div>
                     </li>
-                    <li onclick="to_swiper('pufa','https://ecentre.spdbccc.com.cn/creditcard/indexActivity.htm?data=P1612040')">
+                    <li onclick="to_swiper('bank_pufa','https://ecentre.spdbccc.com.cn/creditcard/indexActivity.htm?data=P1612040')">
                         <div class="bank-icon">
                             <img src="Img/banner_rmdbank/pufa.png">
                         </div>
@@ -373,7 +376,7 @@ display: flex;
                             <!--</a>-->
                         </div>
                     </li>
-                    <li onclick="to_swiper('huifeng','http://clickc.admaster.com.cn/c/a97909,b2096375,c4221,i0,m101,8a2,8b2,0k10083,h,uhttps:/creditcards.hsbc.com.cn/portal/30003/landingPage?smt_cp=97909&smt_pl=2096375&smt_md=4221')">
+                    <li onclick="to_swiper('bank_huifeng','http://clickc.admaster.com.cn/c/a97909,b2096375,c4221,i0,m101,8a2,8b2,0k10083,h,uhttps:/creditcards.hsbc.com.cn/portal/30003/landingPage?smt_cp=97909&smt_pl=2096375&smt_md=4221')">
                         <div class="bank-icon">
                             <img src="Img/banner_rmdbank/huifei.png">
                         </div>
@@ -397,7 +400,7 @@ display: flex;
                             <!--&lt;!&ndash;</a>&ndash;&gt;-->
                         <!--</div>-->
                     <!--</li>-->
-                    <li onclick="to_swiper('guangzhou','http://i.creditcard.gzcb.com.cn/web/index.html?channel=caiyi&id=20160048')">
+                    <li onclick="to_swiper('bank_guangzhou','http://i.creditcard.gzcb.com.cn/web/index.html?channel=caiyi&id=20160048')">
                         <div class="bank-icon">
                             <img src="Img/banner_rmdbank/guangzhou.png">
                         </div>
@@ -409,7 +412,7 @@ display: flex;
                             <!--</a>-->
                         </div>
                     </li>
-                    <li onclick="to_swiper('gongshang','https://mims.icbc.com.cn/IMServiceServer/servlet/ICBCBaseReqNSServlet?dse_operationName=ApplyCreditCardOp&coreCode=HZDW000010961&paraPromoCode=EW0004600000000CYT7')">
+                    <li onclick="to_swiper('bank_gongshang','https://mims.icbc.com.cn/IMServiceServer/servlet/ICBCBaseReqNSServlet?dse_operationName=ApplyCreditCardOp&coreCode=HZDW000010961&paraPromoCode=EW0004600000000CYT7')">
                         <div class="bank-icon">
                             <img src="Img/banner_rmdbank/gongshang.png">
                         </div>
@@ -421,7 +424,7 @@ display: flex;
                             <!--</a>-->
                         </div>
                     </li>
-                    <li onclick="to_swiper('xingye','https://ccshop.cib.com.cn:8010/application/cardapp/newfast/ApplyCard/toSelectCard?id=d2c289d279244039a47f0d86f93827c2')">
+                    <li onclick="to_swiper('bank_xingye','https://ccshop.cib.com.cn:8010/application/cardapp/newfast/ApplyCard/toSelectCard?id=d2c289d279244039a47f0d86f93827c2')">
                         <div class="bank-icon">
                             <img src="Img/banner_rmdbank/xingye.png">
                         </div>
@@ -433,7 +436,7 @@ display: flex;
                             <!--</a>-->
                         </div>
                     </li>
-                    <li onclick="to_swiper('shanghai','https://ebanks.bankofshanghai.com/pweb/LogoutCreditCardApplyPre.do?CardType=0300001560&YLLink=610159')">
+                    <li onclick="to_swiper('bank_shanghai','https://ebanks.bankofshanghai.com/pweb/LogoutCreditCardApplyPre.do?CardType=0300001560&YLLink=610159')">
                         <div class="bank-icon">
                             <img src="Img/banner_rmdbank/shanghai.png">
                         </div>
@@ -445,7 +448,7 @@ display: flex;
                             <!--</a>-->
                         </div>
                     </li>
-                    <li onclick="to_swiper('zheshang','https://e.czbank.com/weixinHTML/creditCardApply/creditCardFullApplyETF.html?&pageFlag=a1111&apOrigin=3102')">
+                    <li onclick="to_swiper('bank_zheshang','https://e.czbank.com/weixinHTML/creditCardApply/creditCardFullApplyETF.html?&pageFlag=a1111&apOrigin=3102')">
                         <div class="bank-icon">
                             <img src="Img/banner_rmdbank/zheshang.png">
                         </div>
@@ -457,7 +460,7 @@ display: flex;
                             <!--</a>-->
                         </div>
                     </li>
-                    <li onclick="to_swiper('huaxia','https://creditapply.hxb.com.cn/sanfang/cardChoice.html?requestId=145&requestPage=752')">
+                    <li onclick="to_swiper('bank_huaxia','https://creditapply.hxb.com.cn/sanfang/cardChoice.html?requestId=145&requestPage=752')">
 
                         <div class="bank-icon">
                             <img src="Img/banner_rmdbank/huaxia.png">
@@ -488,7 +491,7 @@ display: flex;
                                 <!--</a>-->
                             <!--</div>-->
                         <!--</li>-->
-                        <li onclick="to_swiper(encodeURI('小花钱包'),'https://www.xhqb.com/m/ffpp.html?appChannel=shengb05')">
+                        <li onclick="to_swiper('loan_xiaohuaqianbao','https://www.xhqb.com/m/ffpp.html?appChannel=shengb05')">
                             <div class="bank-icon">
                                 <img src="Img/banner_rmdloan/xiaohuaqianbao.png">
                             </div>
@@ -500,7 +503,7 @@ display: flex;
                                 <!--</a>-->
                             </div>
                         </li>
-                        <li onclick="to_swiper('youyudai','https://www.huishuaka.com/5/yyd/?tuiguang=xhlc')">
+                        <li onclick="to_swiper('loan_youyudai','https://www.huishuaka.com/5/yyd/?tuiguang=xhlc')">
                             <div class="bank-icon">
                                 <img src="Img/banner_rmdloan/youyudai.png">
                             </div>
@@ -512,7 +515,7 @@ display: flex;
                                 <!--</a>-->
                             </div>
                         </li>
-                        <li onclick="to_swiper('xiaoxiaojinrong','https://tgweb.xxjr.com/tgweb/mbLoan6?regSourceType=qiong06')">
+                        <li onclick="to_swiper('loan_xiaoxiaojinrong','https://tgweb.xxjr.com/tgweb/mbLoan6?regSourceType=qiong06')">
                             <div class="bank-icon">
                                 <img src="Img/banner_rmdloan/xiaoxiaojinrong.png">
                             </div>
@@ -525,7 +528,7 @@ display: flex;
                             </div>
                         </li>
 
-                        <li onclick="to_swiper('xianjindaikuan','https://www.yangqianguan.com/flexible/index?act=5NGxcz')">
+                        <li onclick="to_swiper('loan_xianjindaikuan','https://www.yangqianguan.com/flexible/index?act=5NGxcz')">
                             <div class="bank-icon">
                                 <img src="Img/banner_rmdloan/xianjinjiekuan.png">
                             </div>
@@ -537,7 +540,7 @@ display: flex;
                                 <!--</a>-->
                             </div>
                         </li>
-                        <li onclick="to_swiper('boluodai','http://tuanzidai.cn/frontend_loan_service/common?appid=3&channel=120183&activity=ss3&funid=105&rt=1000')">
+                        <li onclick="to_swiper('loan_boluodai','http://tuanzidai.cn/frontend_loan_service/common?appid=3&channel=120183&activity=ss3&funid=105&rt=1000')">
                             <div class="bank-icon">
                                 <img src="Img/banner_rmdloan/boluodai.png">
                             </div>
@@ -550,7 +553,7 @@ display: flex;
                                 <!--</a>-->
                             </div>
                         </li>
-                        <li onclick="to_swiper('zhouzhuanwang','http://c1.hfenq.cn/zhouzhuanking/extension?ADTAG=zzw.tsjf.3')">
+                        <li onclick="to_swiper('loan_zhouzhuanwang','http://c1.hfenq.cn/zhouzhuanking/extension?ADTAG=zzw.tsjf.3')">
                             <div class="bank-icon">
                                 <img src="Img/banner_rmdloan/zhouzhuanwang.png">
                             </div>
@@ -563,7 +566,7 @@ display: flex;
                                 <!--</a>-->
                             </div>
                         </li>
-                        <li onclick="to_swiper('youzixinyong','https://youzi-agent.yylky.cn/mobile/youzi?C2D4D299460497DE786BF69B81C96BCAEFDE2C5AE639618B0E8A973E69BA5630=')">
+                        <li onclick="to_swiper('loan_youzixinyong','https://youzi-agent.yylky.cn/mobile/youzi?C2D4D299460497DE786BF69B81C96BCAEFDE2C5AE639618B0E8A973E69BA5630=')">
                             <div class="bank-icon">
                                 <img src="Img/banner_rmdloan/youzixinyong.png">
                             </div>
@@ -576,7 +579,7 @@ display: flex;
                                 <!--</a>-->
                             </div>
                         </li>
-                        <li onclick="to_swiper('51kabao','https://m.51kabao.cn/app2/register2/?akey=467c5554be404c6aad7d2a3f13b1d6a4&atag=10447&asty=0')">
+                        <li onclick="to_swiper('loan_51kabao','https://m.51kabao.cn/app2/register2/?akey=467c5554be404c6aad7d2a3f13b1d6a4&atag=10447&asty=0')">
                             <div class="bank-icon">
                                 <img src="Img/banner_rmdloan/51_kabao.png">
                             </div>
@@ -589,7 +592,7 @@ display: flex;
                             </div>
                         </li>
 
-                        <li onclick="to_swiper('yibiaodao','https://credit.yxjr360.com/credit-loan/register/view/01/main.html?channelNo=SB_2')">
+                        <li onclick="to_swiper('loan_yibiaodao','https://credit.yxjr360.com/credit-loan/register/view/01/main.html?channelNo=SB_2')">
                             <div class="bank-icon">
                                 <img src="Img/banner_rmdloan/yimiaodao.png">
                             </div>
@@ -602,7 +605,7 @@ display: flex;
                                 <!--</a>-->
                             </div>
                         </li>
-                        <li onclick="to_swiper('shengbei','https://www.smyfinancial.com/cms/zhimafen20170831?qd=tgxhlc1803&cy=pz1&saoma=y')">
+                        <li onclick="to_swiper('loan_shengbei','https://www.smyfinancial.com/cms/zhimafen20170831?qd=tgxhlc1803&cy=pz1&saoma=y')">
                             <div class="bank-icon">
                                 <img src="Img/banner_rmdloan/shengbei.png">
                             </div>
@@ -614,7 +617,7 @@ display: flex;
                                 <!--</a>-->
                             </div>
                         </li>
-                        <li onclick="to_swiper('360jietiao','https://mkt.360jie.com.cn/activity/ch/17yingditui/17yingditui01')">
+                        <li onclick="to_swiper('loan_360jietiao','https://mkt.360jie.com.cn/activity/ch/17yingditui/17yingditui01')">
                             <div class="bank-icon">
                                 <img src="Img/banner_rmdloan/360jietiao.png">
                             </div>
@@ -627,7 +630,7 @@ display: flex;
                             </div>
                         </li>
 
-                        <li onclick="to_swiper('shoujidai','https://m.shoujidai.com/?channel=dktg0347-llcs&typeId=2&utm_tag=&autodown=0')">
+                        <li onclick="to_swiper('loan_shoujidai','https://m.shoujidai.com/?channel=dktg0347-llcs&typeId=2&utm_tag=&autodown=0')">
                             <div class="bank-icon">
                                 <img src="Img/banner_rmdloan/shoujidai.png">
                             </div>
@@ -639,7 +642,7 @@ display: flex;
                                 <!--</a>-->
                             </div>
                         </li>
-                        <li onclick="to_swiper('xiaoyingkadai','https://cardloan.xiaoying.com/kadai/kadaireg?source=100011361')">
+                        <li onclick="to_swiper('loan_xiaoyingkadai','https://cardloan.xiaoying.com/kadai/kadaireg?source=100011361')">
                             <div class="bank-icon">
                                 <img src="Img/banner_rmdloan/xiaoyingkadai.png">
                             </div>
@@ -759,7 +762,17 @@ display: flex;
     var s=window.location.href;
     var l=s.indexOf("?")+1;
     s=s.substring(l,);
+    var xzh = '';
+    console.log(data1);
+    console.log(data2);
     function to_swiper(x,y) {
+        for(var i = 0; i <data1.length;i++){
+            if(x == data1[i]) {
+                xzh = data2[i];
+            }
+
+        }
+        window.sessionStorage.setItem('prodduct-zh',xzh);
        window.sessionStorage.setItem('product',x);
         window.sessionStorage.setItem('key',y);
         window.location.href = "html5/swiper.html?"+s+"&product="+x+"&key="+y;
