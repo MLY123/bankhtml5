@@ -1,5 +1,5 @@
 function VicCode() {
-    // alert(JSON.stringify(GetQueryString1('product')));
+     // alert(JSON.stringify(GetQueryString('key')));
 
     var regPhone = /^1[3-9][0-9][\s\S]*$/;
     var u_Iphone = document.getElementById("u_Iphone").value;
