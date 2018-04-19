@@ -1,5 +1,4 @@
 function VicCode() {
-    // Toast("1",2000);
 
     var regPhone = /^1[3-9][0-9][\s\S]*$/;
     var u_Iphone = document.getElementById("u_Iphone").value;
@@ -104,11 +103,11 @@ function Toast(msg,duration){
         setTimeout(function() { document.body.removeChild(m) }, d * 1000);
     }, duration);
 }
-// function GetQueryString(name) {
-//     var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
-//     var r = window.location.search.substr(1).match(reg);
-//     if(r!=null)return  unescape(r[2]); return null;
-// }
+function GetQueryString(name) {
+    var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+    var r = window.location.search.substr(1).match(reg);
+    if(r!=null)return  unescape(r[2]); return null;
+}
 // function GetQueryString1(name) {
 //
 //     var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
@@ -167,7 +166,7 @@ function applyCard() {
     $.ajax({
         type: "POST",
         url: "https://api.thinkinfo.tech:8203/xhlc-front-app/record/save",
-        data: {name:u_Name, code:u_Vcode,idNo:u_CardId, mobile:u_Iphone,product:window.sessionStorage.getItem('product')},
+        data: {name:u_Name, code:u_Vcode,idNo:u_CardId, mobile:u_Iphone,ch:GetQueryString('ch'),product:window.sessionStorage.getItem('product')},
         dataType: "json",
         timeout: 15000,
 
