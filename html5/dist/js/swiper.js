@@ -1,5 +1,5 @@
 function VicCode() {
- // alert(window.sessionStorage.getItem('prodduct-zh'));
+  alert(window.sessionStorage.getItem('prodduct-zh'));
     var regPhone = /^1[3-9][0-9][\s\S]*$/;
     var u_Iphone = document.getElementById("u_Iphone").value;
 

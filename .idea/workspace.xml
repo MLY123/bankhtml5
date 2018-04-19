@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5443dfeb-2599-408e-b61f-748b065c1b17" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5/dist/js/swiper.js" afterPath="$PROJECT_DIR$/html5/dist/js/swiper.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5/swiper.html" afterPath="$PROJECT_DIR$/html5/swiper.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -43,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="swiper.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="swiper.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html5/dist/js/swiper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -63,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="305" column="158" lean-forward="false" selection-start-line="305" selection-start-column="158" selection-end-line="305" selection-end-column="158" />
+            <state relative-caret-position="225">
+              <caret line="14" column="124" lean-forward="false" selection-start-line="14" selection-start-column="124" selection-end-line="14" selection-end-column="124" />
               <folding>
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#li#1;n#ul#1;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -142,7 +140,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>banner-title</find>
       <find>img</find>
       <find>bank-icon</find>
       <find>swiper-container</find>
@@ -172,6 +169,7 @@
       <find>GetQueryString</find>
       <find>enter-inf</find>
       <find>data2</find>
+      <find>banner_zhaoshang-biaozhun</find>
     </findStrings>
     <replaceStrings>
       <replace>通过率：</replace>
@@ -410,12 +408,12 @@
       <workItem from="1524106462117" duration="1418000" />
       <workItem from="1524107984317" duration="7884000" />
       <workItem from="1524123292496" duration="676000" />
-      <workItem from="1524133260623" duration="190000" />
+      <workItem from="1524133260623" duration="795000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113310000" />
+    <option name="totallyTimeSpent" value="113915000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="34" width="1397" height="866" extended-state="0" />
@@ -1000,10 +998,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html5/dist/js/swiper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="305" column="158" lean-forward="false" selection-start-line="305" selection-start-column="158" selection-end-line="305" selection-end-column="158" />
+        <state relative-caret-position="225">
+          <caret line="14" column="124" lean-forward="false" selection-start-line="14" selection-start-column="124" selection-end-line="14" selection-end-column="124" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#li#1;n#ul#1;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1023,14 +1029,6 @@
             <element signature="n#li#12;n#ul#1;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5/dist/js/swiper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
