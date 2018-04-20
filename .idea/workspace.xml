@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5443dfeb-2599-408e-b61f-748b065c1b17" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5/dist/js/swiper.js" afterPath="$PROJECT_DIR$/html5/dist/js/swiper.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -102,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
-              <caret line="575" column="13" lean-forward="false" selection-start-line="575" selection-start-column="13" selection-end-line="575" selection-end-column="13" />
+              <caret line="575" column="0" lean-forward="true" selection-start-line="575" selection-start-column="0" selection-end-line="575" selection-end-column="0" />
               <folding>
                 <element signature="n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -406,18 +402,17 @@
       <workItem from="1524106462117" duration="1418000" />
       <workItem from="1524107984317" duration="7884000" />
       <workItem from="1524123292496" duration="676000" />
-      <workItem from="1524133260623" duration="15091000" />
+      <workItem from="1524133260623" duration="15227000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128211000" />
+    <option name="totallyTimeSpent" value="128347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="79" y="34" width="1397" height="866" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2645349" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2645349" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -920,7 +915,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="575" column="13" lean-forward="false" selection-start-line="575" selection-start-column="13" selection-end-line="575" selection-end-column="13" />
+          <caret line="575" column="0" lean-forward="true" selection-start-line="575" selection-start-column="0" selection-end-line="575" selection-end-column="0" />
           <folding>
             <element signature="n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
