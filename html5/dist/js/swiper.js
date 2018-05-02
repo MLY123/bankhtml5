@@ -1,6 +1,4 @@
-function VicCode() {
-      // alert(JSON.stringify(GetQueryString('_ijt')));
-
+$("#btn").on("click",function(){
     var regPhone = /^1[3-9][0-9][\s\S]*$/;
     var u_Iphone = document.getElementById("u_Iphone").value;
 
@@ -23,7 +21,7 @@ function VicCode() {
 
     $.ajax({
         type: "POST",
-        url: "https://api.thinkinfo.tech:8203/xhlc-front-app/record/mobile_code",
+        url: "/record/mobile_code",
         data: {mobile: u_Iphone},
         dataType: "json",
         timeout: 15000,
@@ -51,9 +49,7 @@ function VicCode() {
 
         }
     })
-
-
-}
+})
 function GetDaojishi() {
     var wait = 120;
     var btn = document.getElementById("btn");
@@ -130,7 +126,12 @@ function GetQueryString1(name) {
     return productzh;
 }
 //测试注册
-function applyCard() {
+var stop_flag=true;
+$(".bank-button").on("click",function(){
+if(!stop_flag){
+    return false;
+}
+    stop_flag=false;
     if (!flag) {
         return false;
     }
@@ -146,7 +147,7 @@ function applyCard() {
     if ((u_CardId.length === 15)) {
         if (!(regCard1.test(u_CardId))) {
             Toast("请输入正确的身份证号码", 2000);
-            return false;
+             return false;
         }
 
     }
@@ -154,39 +155,46 @@ function applyCard() {
         // alert(regCard2.test(u_CardId))
         if (!(regCard2.test(u_CardId))) {
             Toast("请输入正确的身份证号码", 2000);
-            return false;
+             return false;
         }
 
     }
     if (u_CardId.length != 15 && u_CardId.length != 18) {
         Toast("请输入正确的身份证号码", 2000);
-        return false;
+         return false;
     }
     if (!regPhone.test(u_Iphone)) {
         Toast("请输入正确的手机号", 2000);
-        return false;
+         return false;
     }
     if (!(u_Vcode.length === 6)) {
         Toast("请输入正确的验证码", 2000);
-        return false;
+         return false;
     }
     if ((u_Name.length < 0)) {
 
         Toast("姓名不能为空！", 2000);
-        return false;
+         return false;
 
     }
-
+    var url_ch=window.location.href;
+    // console.log(url_ch);
+      var  ch_num=url_ch.indexOf('&ch=')+4;
+       var batch_num=url_ch.indexOf("&batch=");
+        var ch_data=url_ch.substring(ch_num,batch_num);
+        var batch_data=url_ch.substring(batch_num+7,url_ch.length);
+        // console.log(ch_data);
+        // console.log(batch_data);
     $.ajax({
         type: "POST",
-        url: "https://api.thinkinfo.tech:8203/xhlc-front-app/record/save",
+        url: "/record/save",
         data: {
             name: u_Name,
             code: u_Vcode,
             idNo: u_CardId,
             mobile: u_Iphone,
-            batch: GetQueryString('batch'),
-            ch: GetQueryString('ch'),
+            batch: batch_data,
+            ch: ch_data,
             product: GetQueryString1('product')
         },
         dataType: "json",
@@ -204,17 +212,24 @@ function applyCard() {
 
         },
         success: function (data) {
-            // alert(JSON.stringify(data));
+
             // Toast(data.msg,2000);
             if (data.status == 200) {
-                window.location.href = GetQueryString('key')
+
+                var Url=window.location.href;
+                var l=Url.indexOf("key=")+4;
+                var dataUrl=Url.substring(l,Url.length);
+                l=dataUrl.indexOf('&ch=');
+                dataUrl=dataUrl.substring(0,l);
+                 // alert(dataUrl);
+                window.location.href = dataUrl;
+
                 // alert(data.msg)
             } else {
                 Toast(data.msg, 2000);
 
             }
-
+            stop_flag=true;
         }
     })
-
-}
+})
