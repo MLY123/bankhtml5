@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5443dfeb-2599-408e-b61f-748b065c1b17" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5/dist/js/swiper.js" afterPath="$PROJECT_DIR$/html5/dist/js/swiper.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -87,8 +86,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="245" column="54" lean-forward="true" selection-start-line="245" selection-start-column="54" selection-end-line="245" selection-end-column="54" />
+            <state relative-caret-position="303">
+              <caret line="234" column="6" lean-forward="true" selection-start-line="234" selection-start-column="6" selection-end-line="234" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -142,8 +141,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>bank-describe</find>
-      <find>classfooterclassfooter</find>
       <find>bank-xieyi</find>
       <find>bank-button</find>
       <find>flag</find>
@@ -170,8 +167,10 @@
       <find>loan_boluodai</find>
       <find>菠萝</find>
       <find>console</find>
-      <find>swiper-wrapper</find>
       <find>swiper-slide</find>
+      <find>swiper-wrapper</find>
+      <find>banner-img</find>
+      <find>to-swiper</find>
     </findStrings>
     <replaceStrings>
       <replace>通过率：</replace>
@@ -446,12 +445,12 @@
       <workItem from="1525497001563" duration="1643000" />
       <workItem from="1525498772682" duration="2449000" />
       <workItem from="1525503786814" duration="606000" />
-      <workItem from="1525570615662" duration="449000" />
+      <workItem from="1525570615662" duration="1030000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149690000" />
+    <option name="totallyTimeSpent" value="150271000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="34" width="1397" height="866" extended-state="0" />
@@ -882,8 +881,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="245" column="54" lean-forward="true" selection-start-line="245" selection-start-column="54" selection-end-line="245" selection-end-column="54" />
+        <state relative-caret-position="303">
+          <caret line="234" column="6" lean-forward="true" selection-start-line="234" selection-start-column="6" selection-end-line="234" selection-end-column="6" />
           <folding />
         </state>
       </provider>
