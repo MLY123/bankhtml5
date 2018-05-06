@@ -260,65 +260,65 @@
         <div class="backbody" >
 
 
-    <div class="recommend-bank">
-        <h5>请填写申请者本人的信息（须与申报表中一致）</h5>
-        <ul class="clearBoth">
+    <!--<div class="recommend-bank">-->
+        <!--<h5>请填写申请者本人的信息（须与申报表中一致）</h5>-->
+        <!--<ul class="clearBoth">-->
 
-            <div class="bank-describe">
-                <label for="Rname">申请人姓名</label>
-                <input class="enter-inf" type="text" placeholder="填写您的真实姓名" name="u_Name" id="u_Name">
-            </div>
-            <div class="bank-describe">
-                <label for="CardId">身份证号</label>
-                <input class="enter-inf" maxlength = 18 type="text" placeholder="输入身份证号" name="u_CardId" id="u_CardId">
-            </div>
-            <div class="bank-describe">
-                <label for="Iphone">手机号</label>
-                <input class="enter-inf" maxlength = 11 type="tel" placeholder="输入您的手机号" name="u_Iphone" id="u_Iphone">
-            </div>
-            <div class="vcode-view">
-                <label for="Vcode">验证码</label>
-                <input class="enter-inf" maxlength = 6 type="tel" placeholder="请输入验证码" name="u_Vcode" id="u_Vcode"  class="enter-inf" style="width:300px;">
-                <input type="submit"  id="btn" value="获取验证码"  style="width:240px;color:#1caaf0;float:right;margin-right:60px;text-align: right">
-            </div>
-        </ul>
-    </div>
-    <div  class="bank-button submit" >
-        立即申请
-        <!--<input type="button" value="立即申请" class="submit" onclick="applyCard()" >-->
-    </div>
-            <script>
+            <!--<div class="bank-describe">-->
+                <!--<label for="Rname">申请人姓名</label>-->
+                <!--<input class="enter-inf" type="text" placeholder="填写您的真实姓名" name="u_Name" id="u_Name">-->
+            <!--</div>-->
+            <!--<div class="bank-describe">-->
+                <!--<label for="CardId">身份证号</label>-->
+                <!--<input class="enter-inf" maxlength = 18 type="text" placeholder="输入身份证号" name="u_CardId" id="u_CardId">-->
+            <!--</div>-->
+            <!--<div class="bank-describe">-->
+                <!--<label for="Iphone">手机号</label>-->
+                <!--<input class="enter-inf" maxlength = 11 type="tel" placeholder="输入您的手机号" name="u_Iphone" id="u_Iphone">-->
+            <!--</div>-->
+            <!--<div class="vcode-view">-->
+                <!--<label for="Vcode">验证码</label>-->
+                <!--<input class="enter-inf" maxlength = 6 type="tel" placeholder="请输入验证码" name="u_Vcode" id="u_Vcode"  class="enter-inf" style="width:300px;">-->
+                <!--<input type="submit"  id="btn" value="获取验证码"  style="width:240px;color:#1caaf0;float:right;margin-right:60px;text-align: right">-->
+            <!--</div>-->
+        <!--</ul>-->
+    <!--</div>-->
+    <!--<div  class="bank-button submit" >-->
+        <!--立即申请-->
+        <!--&lt;!&ndash;<input type="button" value="立即申请" class="submit" onclick="applyCard()" >&ndash;&gt;-->
+    <!--</div>-->
+            <!--<script>-->
 
-                var enterInf = $(".enter-inf");
-                 var flag=false;
-                for(var i=0;i<enterInf.length;i++) {
-                    enterInf.eq(i).bind("input propertychange change",function(event){
-                        if(enterInf.eq(0).val() == '' || enterInf.eq(1).val() == '' || enterInf.eq(2).val() == '' || enterInf.eq(3).val() == '' ) {
-                            $(".submit").removeClass("p");
-                            $(".submit").addClass("p1");
-                            flag=false;
+                <!--var enterInf = $(".enter-inf");-->
+                 <!--var flag=false;-->
+                <!--for(var i=0;i<enterInf.length;i++) {-->
+                    <!--enterInf.eq(i).bind("input propertychange change",function(event){-->
+                        <!--if(enterInf.eq(0).val() == '' || enterInf.eq(1).val() == '' || enterInf.eq(2).val() == '' || enterInf.eq(3).val() == '' ) {-->
+                            <!--$(".submit").removeClass("p");-->
+                            <!--$(".submit").addClass("p1");-->
+                            <!--flag=false;-->
 
-                        } else {
-
-
-                            flag=true;
-                            $(".submit").removeClass("p1");
-                            $(".submit").addClass("p");
-//
-
-                        }
-                    });
-                }
+                        <!--} else {-->
 
 
+                            <!--flag=true;-->
+                            <!--$(".submit").removeClass("p1");-->
+                            <!--$(".submit").addClass("p");-->
+<!--//-->
+
+                        <!--}-->
+                    <!--});-->
+                <!--}-->
 
 
 
-            </script>
-    <div class="bank-xieyi">
-        <label>点击立即申请即表示同意</label>
-        <a href="../xieyi/xieyie.html">《用户服务协议》</a>
-    </div>
+
+
+            <!--</script>-->
+    <!--<div class="bank-xieyi">-->
+        <!--<label>点击立即申请即表示同意</label>-->
+        <!--<a href="../xieyi/xieyie.html">《用户服务协议》</a>-->
+    <!--</div>-->
             <!--<footer class="footer">-->
                 <!--<img class="classfooter" src="../Img/bg.png">-->
 
@@ -329,7 +329,7 @@
 
 
 
- 
+
     </body>
  <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1273395913'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1273395913%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
  
